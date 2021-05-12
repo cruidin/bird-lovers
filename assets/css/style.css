@@ -23,9 +23,16 @@ section {
 h1, h2 {
     font-family: Itim, Helvetica, sans-serif;
     color: #6d8c73;
+}
+
+#logo {
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
+    margin: 10px;
+    padding: 0;
+    border: none;
 }
 
 /* menu bar */
@@ -34,4 +41,7 @@ h1, h2 {
     position: relative;
     float: center;
     text-align: center;
+    margin: 10px;
+    padding: 0;
+    border: none;
 }
