@@ -10,6 +10,7 @@ body {
     font-family: Itim, Helvetica, sans-serif;
     font-weight: 300;
     color: #bee8cf;
+    background-color: #d7e6e8;
 }
 
 a {
@@ -63,4 +64,11 @@ h1, h2 {
     height: 300px;
     width: 97%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+}
+
+/* footer */
+
+footer {
+    color: #ffffff;
+    background-color: #55504b;
 }
