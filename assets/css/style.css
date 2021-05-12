@@ -9,9 +9,22 @@
 body {
     font-family: Itim, Helvetica, sans-serif;
     font-weight: 300;
+    color: #bee8cf;
 }
 
 section {
     font-family: Roboto, Helvetic, sans-serif;
     font-weight: 300;
+    color: #55504b
 }
+
+/*headings and logo */
+
+h1, h2 {
+    font-family: Itim, Helvetica, sans-serif;
+    color: #6d8c73;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
