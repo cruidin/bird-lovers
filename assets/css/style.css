@@ -28,3 +28,10 @@ h1, h2 {
     text-align: center;
 }
 
+/* menu bar */
+
+.menu {
+    position: relative;
+    float: center;
+    text-align: center;
+}
