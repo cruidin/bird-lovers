@@ -10,7 +10,7 @@ body {
     font-family: Itim, Helvetica, sans-serif;
     font-weight: 300;
     color: #bee8cf;
-    background-color: #d7e6e8;
+    background-color: #ffffff;
 }
 
 p {
@@ -63,6 +63,7 @@ h1, h2 {
     border: none;
     background-color: #55504b;
     border-radius: 0px;
+    width: 100%;
 }
 
 #menu a {
@@ -71,7 +72,7 @@ h1, h2 {
 
 #hero-image {
     height: 300px;
-    width: 97%;
+    width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
 }
 
@@ -80,4 +81,15 @@ h1, h2 {
 footer {
     color: #ffffff;
     background-color: #55504b;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+#bird-links {
+    
 }
