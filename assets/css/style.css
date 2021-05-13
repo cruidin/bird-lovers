@@ -27,6 +27,30 @@ section {
     color: #55504b
 }
 
+/* boxes for content */
+
+/*
+div {
+  width: 160px;
+  height: 80px;
+  padding: 20px;
+  border: 8px solid #6d8c73;
+  background: #bee8cf;
+}
+*/
+
+.box {
+  width: 1000px;
+  border: 2px solid #bee8cf;
+  padding: 50px;
+  margin: 20px auto;
+  
+}
+
+.box {
+  box-sizing: content-box;
+}
+
 .info {
     font-family: Roboto, Helvetica, sans-serif;
     background-color: #ffffff;
