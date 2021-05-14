@@ -12,6 +12,7 @@ body {
     font-weight: 300;
     color: #bee8cf;
     background-color: #ffffff;
+    line-height: 1.6;
 }
 
 p {
@@ -68,7 +69,7 @@ h1, h2 {
     letter-spacing: 3px;
     text-align: center;
     margin: 0px;
-    padding: 20px;
+    padding: 0px;
     border: none;
     color: #ffffff;
     background-color: #bd6e1f;
@@ -86,10 +87,10 @@ h1, h2 {
     position: relative;
     float: center;
     text-align: center;
-    margin: 2px;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
     border: none;
-    
+    word-spacing: 20px;
     border-radius: 0px;
     width: 100%;
 }
@@ -107,11 +108,11 @@ h1, h2 {
 
 
 #bird-links {
-    color: #ffffff;
-    background-color: #e2f8eb;
+    color: #55504b;
     width: 100%;
     text-align: center;
-    font-family: Itim, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
+    line-height: 1.6;
 }
 
 #bird-links a {
@@ -128,20 +129,19 @@ div {
   border: 8px solid #6d8c73;
   background: #bee8cf;
 }
-*/
+
 
 .box {
-  width: 1000px;
   border: 2px solid #bee8cf;
-  padding: 50px;
-  margin: 20px auto;
+  padding: 5px 100px;
+  margin: 5px 100px auto;
   background-color: #6d8c73;
 }
 
 .box {
   box-sizing: content-box;
 }
-
+*/
 .info {
     font-family: Roboto, Helvetica, sans-serif;
     background-color: #ffffff;
@@ -155,14 +155,17 @@ img {
 /* footer */
 
 footer {
+    font-family: Roboto, Helvetica, sans-serif;
     color: #ffffff;
     background-color: #255033;
     width: absolute 100%;
     text-align: center;
     letter-spacing: 3px;
+    word-spacing: 10px;
     margin: 0px;
     padding: 50px;
     border: none;
+    line-height: 1.6;
 }
 
 footer a {
