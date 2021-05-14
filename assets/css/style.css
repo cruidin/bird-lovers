@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Itim&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 5px;
@@ -7,7 +8,7 @@
 }
 
 body {
-    font-family: Itim, Helvetica, sans-serif;
+    font-family: Itim, cursive;
     font-weight: 300;
     color: #bee8cf;
     background-color: #ffffff;
@@ -29,57 +30,11 @@ section {
     font-weight: 300;
     color: #55504b
 }
-/* birds.html */
-
-/* bird links */
-
-
-
-#bird-links {
-    color: #ffffff;
-    background-color: #e2f8eb;
-    width: 100%;
-    text-align: center;
-    font-family: Itim, Helvetica, sans-serif;
-}
-
-#bird-links a {
-    color: #6d8c73;
-}
-
-/* boxes for content */
-
-/*
-div {
-  width: 160px;
-  height: 80px;
-  padding: 20px;
-  border: 8px solid #6d8c73;
-  background: #bee8cf;
-}
-*/
-
-.box {
-  width: 1000px;
-  border: 2px solid #bee8cf;
-  padding: 50px;
-  margin: 20px auto;
-  
-}
-
-.box {
-  box-sizing: content-box;
-}
-
-.info {
-    font-family: Roboto, Helvetica, sans-serif;
-    background-color: #ffffff;
-}
 
 /*headings and logo */
 
 h1, h2 {
-    font-family: Itim, Helvetica, sans-serif;
+    font-family: Girassol, cursive;
     color: #6d8c73;
 }
 
@@ -119,7 +74,61 @@ h1, h2 {
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
+    position: relative;
+    border-color: #6d8c73;
 }
+
+/* birds.html */
+
+/* bird links */
+
+
+
+#bird-links {
+    color: #ffffff;
+    background-color: #e2f8eb;
+    width: 100%;
+    text-align: center;
+    font-family: Itim, Helvetica, sans-serif;
+}
+
+#bird-links a {
+    color: #6d8c73;
+}
+
+/* boxes for content */
+
+/*
+div {
+  width: 160px;
+  height: 80px;
+  padding: 20px;
+  border: 8px solid #6d8c73;
+  background: #bee8cf;
+}
+*/
+
+.box {
+  width: 1000px;
+  border: 2px solid #bee8cf;
+  padding: 50px;
+  margin: 20px auto;
+  background-color: #6d8c73;
+}
+
+.box {
+  box-sizing: content-box;
+}
+
+.info {
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+img {
+  border-radius: 50%;
+}
+
 
 /* footer */
 
