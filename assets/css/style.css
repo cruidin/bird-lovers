@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Girassol&family=Itim&family=Roboto:wght@300&display=swap');
 
 * {
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
     border: none;
 }
 
@@ -25,17 +25,41 @@ a {
     text-decoration: none;
 }
 
+#hero-image {
+    height: 400px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    border-color: #6d8c73;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+
 section {
     font-family: Roboto, Helvetic, sans-serif;
     font-weight: 300;
     color: #55504b
 }
 
+.content {
+    margin: 5px 100px;
+    padding: 5px 100px;
+    border: none;
+}
+
 /*headings and logo */
+
+header {
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    border: none;
+}
 
 h1, h2 {
     font-family: Girassol, cursive;
-    color: #6d8c73;
+    
 }
 
 #logo {
@@ -44,8 +68,13 @@ h1, h2 {
     letter-spacing: 3px;
     text-align: center;
     margin: 2px;
-    padding: 0;
+    padding: 2px;
     border: none;
+    color: #ffffff;
+    background-color: #bd6e1f;
+    height: 70px;
+    float: center;
+    position: relative;
 }
 
 /* navigation links */
@@ -53,30 +82,23 @@ h1, h2 {
 #menu {
     font-size: 120%;
     letter-spacing: 3px;
-    color: #bee8cf;
+    color: #29462e;
     position: relative;
     float: center;
     text-align: center;
     margin: 2px;
     padding: 20px;
     border: none;
-    background-color: #55504b;
+    
     border-radius: 0px;
     width: 100%;
 }
 
 #menu a {
-    color: #bee8cf;
+    color: #29462e;
 }
 
-#hero-image {
-    height: 400px;
-    width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-    background-size: cover;
-    position: relative;
-    border-color: #6d8c73;
-}
+
 
 /* birds.html */
 
@@ -134,10 +156,13 @@ img {
 
 footer {
     color: #ffffff;
-    background-color: #55504b;
+    background-color: #bd6e1f;
     width: 100%;
     text-align: center;
     letter-spacing: 3px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
 }
 
 footer a {
