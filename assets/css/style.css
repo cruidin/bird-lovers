@@ -32,10 +32,10 @@ a {
     background-size: cover;
     position: relative;
     border-color: #6d8c73;
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
     border: none;
-}
+}   
 
 section {
     font-family: Roboto, Helvetic, sans-serif;
@@ -52,8 +52,8 @@ section {
 /*headings and logo */
 
 header {
-    margin: 10px 0px 0px 0px;
-    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    padding: 0px;
     border: none;
 }
 
@@ -67,8 +67,8 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
-    margin: 2px;
-    padding: 2px;
+    margin: 0px;
+    padding: 20px;
     border: none;
     color: #ffffff;
     background-color: #bd6e1f;
@@ -156,12 +156,12 @@ img {
 
 footer {
     color: #ffffff;
-    background-color: #bd6e1f;
-    width: 100%;
+    background-color: #255033;
+    width: absolute 100%;
     text-align: center;
     letter-spacing: 3px;
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 50px;
     border: none;
 }
 
