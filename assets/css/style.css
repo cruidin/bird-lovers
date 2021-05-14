@@ -15,6 +15,9 @@ body {
 
 p {
     font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #55504b;
+    background-color: #ffffff;
 }
 
 a {
@@ -25,6 +28,23 @@ section {
     font-family: Roboto, Helvetic, sans-serif;
     font-weight: 300;
     color: #55504b
+}
+/* birds.html */
+
+/* bird links */
+
+
+
+#bird-links {
+    color: #ffffff;
+    background-color: #e2f8eb;
+    width: 100%;
+    text-align: center;
+    font-family: Itim, Helvetica, sans-serif;
+}
+
+#bird-links a {
+    color: #6d8c73;
 }
 
 /* boxes for content */
@@ -95,9 +115,10 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 300px;
+    height: 400px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 /* footer */
