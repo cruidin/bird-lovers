@@ -183,12 +183,26 @@ div {
 }
 */
 .info {
+    height: 600px;
     font-family: Roboto, Helvetica, sans-serif;
     background-color: #ffffff;
 }
 
+.bird-info-left {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+.bird-info-right {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
 img {
-    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 
