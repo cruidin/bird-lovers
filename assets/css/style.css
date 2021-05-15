@@ -37,6 +37,7 @@ a {
     position: relative;
     border-color: #6d8c73;
     margin: 0px;
+    margin-bottom: 50px;
     padding: 0px;
     border: none;
 }
@@ -45,6 +46,14 @@ section {
     font-family: Roboto, Helvetic, sans-serif;
     font-weight: 300;
     color: #55504b
+}
+
+div #general-info {
+    margin-bottom: 50px;
+}
+
+div #bird-links {
+    margin-bottom: 50px;
 }
 
 .content {
@@ -143,7 +152,6 @@ a {
 
 #bird-links a:hover {
     color: #bee8cf; 
-    ;
 }
 
 
@@ -186,6 +194,16 @@ div {
     height: 600px;
     font-family: Roboto, Helvetica, sans-serif;
     background-color: #ffffff;
+}
+
+.bird-left {
+    width: 50%;
+    float: left;
+}
+
+.bird-right {
+    width: 50%;
+    float: right;
 }
 
 .bird-info-left {
