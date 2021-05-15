@@ -85,7 +85,7 @@ h2 {
     padding: 0px;
     border: none;
     color: #ffffff;
-    background-color: #bd6e1f;
+    background-color: #291909;
     height: 70px;
     float: center;
     position: relative;
@@ -118,7 +118,7 @@ h2 {
 
 #nav a:hover {
     color: #ffffff;
-    background-color: #bd6e1f;
+    background-color: #291909;
 }
 
 /* birds.html */
@@ -151,7 +151,7 @@ a {
 }
 
 #bird-links a:hover {
-    color: #bee8cf; 
+    color: #bee8cf;
 }
 
 
@@ -169,27 +169,6 @@ a {
 
 /* boxes for content */
 
-/*
-div {
-  width: 160px;
-  height: 80px;
-  padding: 20px;
-  border: 8px solid #6d8c73;
-  background: #bee8cf;
-}
-
-
-.box {
-  border: 2px solid #bee8cf;
-  padding: 5px 100px;
-  margin: 5px 100px auto;
-  background-color: #6d8c73;
-}
-
-.box {
-  box-sizing: content-box;
-}
-*/
 .info {
     height: 600px;
     font-family: Roboto, Helvetica, sans-serif;
@@ -239,6 +218,7 @@ footer {
     padding: 50px;
     border: none;
     line-height: 1.6;
+    position: relative;
 }
 
 
