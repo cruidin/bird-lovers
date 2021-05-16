@@ -62,53 +62,69 @@ div #bird-links {
     border: none;
 }
 
-#what-are-birds {
-    height: 400px;
-    margin: 5px 200px;
+hr {
+    border-top: 1px solid #291909;
+    margin: 5px 100px;
+    padding: 5px 100px;
+    
 }
+/*
+#what-are-birds {
+    height: 100%;
+}
+*/
 
 #left-what-are {
     padding-top: 30px;
     width: 33%;
+    height: auto;
     float: left;
 }
 
 #center-what-are {
     width: 33%;
+    height: auto;
     margin: 0 auto;
+    float: left;
 }
 
 #right-what-are {
     padding-top: 30px;
-    width: 33%;
-    float: right;
+    width: 33%; 
+    height: auto;
+    float: left;
 }
-
+/*
 #where-are {
     height: 400px;
     margin: 5px 200px;
+    margin-bottom: 50px;
 }
+*/
 
 #left-where-are {
     padding-top: 30px;
     width: 33%;
+    height: auto;
     float: left;
 }
 
 #center-where-are {
     width: 33%;
     margin: 0 auto;
+    float: left;
 }
 
 #left-where-are {
     padding-top: 30px;
     width: 33%;
-    float: right;
+    float: left;
 }
 
 #why-bother {
     height: 400px;
     margin: 5px 200px;
+    margin-bottom: 50px;
 }
 
 #left-why-bother {
@@ -120,12 +136,13 @@ div #bird-links {
 #right-why-bother {
     padding-top: 30px;
     width: 70%;
-    float: right;
+    float:left;
 }
 
 #activities {
     height: 400px;
     margin: 5px 200px;
+    margin-bottom: 50px;
 }
 
 #left-activities {
@@ -137,12 +154,13 @@ div #bird-links {
 #center-activities {
     width: 33%;
     margin: 0 auto;
+    float: left;
 }
 
 #right-activities {
     padding-top: 30px;
     width: 33%;
-    float: right;
+    float: left;
 }
 
 /*headings and logo */
