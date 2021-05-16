@@ -62,6 +62,89 @@ div #bird-links {
     border: none;
 }
 
+#what-are-birds {
+    height: 400px;
+    margin: 5px 200px;
+}
+
+#left-what-are {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#center-what-are {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#right-what-are {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#where-are {
+    height: 400px;
+    margin: 5px 200px;
+}
+
+#left-where-are {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#center-where-are {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#left-where-are {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#why-bother {
+    height: 400px;
+    margin: 5px 200px;
+}
+
+#left-why-bother {
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+}
+
+#right-why-bother {
+    padding-top: 30px;
+    width: 70%;
+    float: right;
+}
+
+#activities {
+    height: 400px;
+    margin: 5px 200px;
+}
+
+#left-activities {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#center-activities {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#right-activities {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
 /*headings and logo */
 
 header {
