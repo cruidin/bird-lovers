@@ -32,7 +32,7 @@ a {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image2.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     border-color: #6d8c73;
@@ -111,7 +111,7 @@ h2 {
 #nav a {
     display: inline-block;
     padding: 10px;
-    color: #3c7ba5;
+    color: #291909;
     text-decoration: none;
     font-weight: bold;
 }
@@ -209,8 +209,8 @@ img {
 
 footer {
     font-family: Roboto, Helvetica, sans-serif;
-    color: #ffffff;
-    background-color: #569c6e;
+    color: #291909;
+    background-color: #fee3e0;
     width: absolute 100%;
     text-align: center;
     letter-spacing: 3px;
@@ -240,7 +240,7 @@ footer {
     display: inline-block;
     padding: 10px;
 
-    color: #ffffff;
+    color: #291909;
     text-decoration: none;
     font-weight: bold;
 }
