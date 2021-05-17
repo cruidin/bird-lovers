@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Itim, cursive;
+    font-family: Roboto, cursive;
     font-weight: 300;
     color: #bee8cf;
     background-color: #ffffff;
@@ -32,7 +32,7 @@ a {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url('../images/hero-image2.jpg') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     border-color: #6d8c73;
@@ -41,6 +41,64 @@ a {
     padding: 0px;
     border: none;
 }
+
+header {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+h1,
+h2 {
+    font-family: Girassol, cursive;
+
+}
+
+#logo {
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: #ffffff;
+    background-color: #291909;
+    height: 70px;
+    float: center;
+    position: relative;
+}
+
+/* navigation links */
+
+
+#nav {
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #291909;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    color: #ffffff;
+    background-color: #fee3e0;
+}
+
 
 section {
     font-family: Roboto, Helvetic, sans-serif;
@@ -66,13 +124,15 @@ hr {
     border-top: 1px solid #291909;
     margin: 5px 100px;
     padding: 5px 100px;
-    
+
 }
+
 /*
 #what-are-birds {
     height: 100%;
 }
 */
+/*
 
 #left-what-are {
     padding-top: 30px;
@@ -100,7 +160,7 @@ hr {
     margin: 5px 200px;
     margin-bottom: 50px;
 }
-*/
+
 
 #left-where-are {
     padding-top: 30px;
@@ -163,66 +223,133 @@ hr {
     float: left;
 }
 
+*/
+
 /*headings and logo */
 
-header {
-    margin: 0px;
-    padding: 0px;
-    border: none;
-}
-
-h1,
-h2 {
-    font-family: Girassol, cursive;
-
-}
-
-#logo {
-    font-size: 250%;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-    color: #ffffff;
-    background-color: #291909;
-    height: 70px;
-    float: center;
-    position: relative;
-}
-
-/* navigation links */
-
-
-#nav {
-    border-width: 1px 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 120%;
-    letter-spacing: 3px;
-}
-
-#nav li {
-    display: inline;
-}
-
-#nav a {
-    display: inline-block;
-    padding: 10px;
-    color: #291909;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#nav a:hover {
-    color: #ffffff;
-    background-color: #291909;
-}
 
 /* birds.html */
+
+/* index.html divs */
+
+.container {
+    width: 800px;
+    height: 300px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+#box-1-3 {
+    float: left;
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    text-align: right;
+}
+
+#box-2-3 {
+    float: left;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    margin: 0 auto;
+}
+
+#box-3-3 {
+    float: right;
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    text-align: left;
+}
+
+#box2-1-3 {
+    float: left;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    text-align: right;
+}
+
+#box2-2-3 {
+    float: center;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    margin: 0 auto;
+}
+
+#box2-3-3 {
+    float: right;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    text-align: left;
+}
+
+#box3-1-3 {
+    float: left;
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    text-align: right;
+}
+
+#box3-2-3 {
+    float: left;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    margin: 0 auto;
+}
+
+#box3-3-3 {
+    float: right;
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    text-align: left;
+}
+
+
+#box4-1-3 {
+    float: left;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    text-align: right;
+}
+
+#box4-2-3 {
+    float: center;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    margin: 0 auto;
+}
+
+#box4-3-3 {
+    float: right;
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    border: none;
+    text-align: left;
+}
 
 /* bird links */
 
@@ -347,7 +474,7 @@ footer {
 }
 
 #bird-links-footer a:hover {
-    color: #bee8cf; 
+    color: #ffffff;
 }
 
 /*
