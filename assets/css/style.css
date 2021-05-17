@@ -70,9 +70,11 @@ h2 {
 }
 
 /* navigation links */
+#menu {
+    padding: 5px 0 20px 0;
+}
 
-
-#nav {
+.nav {
     border-width: 1px 0;
     list-style: none;
     margin: 0;
@@ -82,11 +84,11 @@ h2 {
     letter-spacing: 3px;
 }
 
-#nav li {
+.nav li {
     display: inline;
 }
 
-#nav a {
+.nav a {
     display: inline-block;
     padding: 10px;
     color: #291909;
@@ -94,10 +96,14 @@ h2 {
     font-weight: bold;
 }
 
-#nav a:hover {
+
+
+.nav a:hover {
     color: #ffffff;
     background-color: #fee3e0;
 }
+
+
 
 
 section {
@@ -232,20 +238,32 @@ hr {
 
 /* index.html divs */
 
+#intro {
+    text-align: center;
+    padding: 5px 0 20px 0;
+}
+.introduction {
+    padding-top: 10px;
+}
+
 .container {
-    width: 800px;
+    width: 900px;
     height: 300px;
     background-color: #ffffff;
-    padding-top: 20px;
+    padding-top: 0;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 20px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #box-1-3 {
     float: left;
     width: 300px;
-    height: 160px;
+    height: 260px;
     background-color: white;
     border: none;
     text-align: right;
@@ -253,8 +271,8 @@ hr {
 
 #box-2-3 {
     float: left;
-    width: 200px;
-    height: 160px;
+    width: 300px;
+    height: 260px;
     background-color: white;
     border: none;
     margin: 0 auto;
@@ -263,16 +281,30 @@ hr {
 #box-3-3 {
     float: right;
     width: 300px;
-    height: 160px;
+    height: 260px;
     background-color: white;
     border: none;
     text-align: left;
 }
 
+#container2 {
+    width: 900px;
+    height: 400px;
+    background-color: #ffffff;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #box2-1-3 {
     float: left;
-    width: 200px;
-    height: 160px;
+    width: 300px;
+    height: 260px;
     background-color: white;
     border: none;
     text-align: right;
@@ -280,8 +312,8 @@ hr {
 
 #box2-2-3 {
     float: center;
-    width: 200px;
-    height: 160px;
+    width: 300px;
+    height: 260px;
     background-color: white;
     border: none;
     margin: 0 auto;
@@ -289,17 +321,43 @@ hr {
 
 #box2-3-3 {
     float: right;
-    width: 200px;
-    height: 160px;
+    width: 300px;
+    height: 260px;
     background-color: white;
     border: none;
     text-align: left;
 }
 
+#birds-park {
+    height: 200px;
+}
+
+#birds-city {
+    height: 200px;
+}
+
+#birds-houses {
+    height: 200px;
+}
+
+#container3 {
+     width: 900px;
+    height: 400px;
+    background-color: #ffffff;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #box3-1-3 {
     float: left;
     width: 300px;
-    height: 160px;
+    height: 260px;
     background-color: white;
     border: none;
     text-align: right;
@@ -307,8 +365,8 @@ hr {
 
 #box3-2-3 {
     float: left;
-    width: 200px;
-    height: 160px;
+    width: 300px;
+    height: 260px;
     background-color: white;
     border: none;
     margin: 0 auto;
@@ -317,26 +375,35 @@ hr {
 #box3-3-3 {
     float: right;
     width: 300px;
-    height: 160px;
+    height: 260px;
     background-color: white;
     border: none;
     text-align: left;
 }
 
+#container4 {
+    width: 900px;
+    height: 300px;
+    background-color: #ffffff;
+    padding: px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #box4-1-3 {
     float: left;
-    width: 200px;
-    height: 160px;
+    width: 300px;
+    height: 300px;
     background-color: white;
     border: none;
-    text-align: right;
 }
 
 #box4-2-3 {
     float: center;
-    width: 200px;
-    height: 160px;
+    width: 300px;
+    height: 260px;
     background-color: white;
     border: none;
     margin: 0 auto;
@@ -344,11 +411,60 @@ hr {
 
 #box4-3-3 {
     float: right;
+    width: 300px;
+    height: 260px;
+    background-color: white;
+    border: none;
+}
+
+#drawing {
+    height: 200px;
+}
+
+#walking {
+    height: 200px;
+}
+
+#coffee {
+    height: 200px;
+}
+
+#container5 {
+    width: 900px;
+    height: 300px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#box5-1-2 {
+    float: left;
     width: 200px;
-    height: 160px;
+    height: 10px;
+    background-color: white;
+    border: none;
+    text-align: right;
+}
+
+
+
+#box5-2-2 {
+    float: right;
+    width: 800px;
+    height: 10px;
     background-color: white;
     border: none;
     text-align: left;
+}
+
+#empty-box {
+    width: 900px;
+    height: 190px;
+    background-color: white;
+
 }
 
 /* bird links */
@@ -372,7 +488,7 @@ hr {
     padding: 10px;
 }
 
-a {
+a#bird-links {
     color: #3c7ba5;
     text-decoration: none;
     font-weight: bold;
