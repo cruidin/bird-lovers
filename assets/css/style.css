@@ -30,14 +30,14 @@ a {
 }
 
 #hero-image {
-    height: 400px;
+    height: 450px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     border-color: #6d8c73;
     margin: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 0px;
     border: none;
 }
@@ -51,7 +51,6 @@ header {
 h1,
 h2 {
     font-family: Girassol, cursive;
-
 }
 
 #logo {
@@ -63,13 +62,14 @@ h2 {
     padding: 0px;
     border: none;
     color: #ffffff;
-    background-color: #291909;
+    background-color: #67a35f;
     height: 70px;
     float: center;
     position: relative;
 }
 
 /* navigation links */
+
 #menu {
     padding: 5px 0 20px 0;
 }
@@ -80,7 +80,7 @@ h2 {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 120%;
+    font-size: 110%;
     letter-spacing: 3px;
 }
 
@@ -91,26 +91,23 @@ h2 {
 .nav a {
     display: inline-block;
     padding: 10px;
-    color: #291909;
+    color: #6d8c73;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: none;
 }
-
-
 
 .nav a:hover {
     color: #ffffff;
     background-color: #fee3e0;
 }
 
-
-
-
 section {
     font-family: Roboto, Helvetic, sans-serif;
     font-weight: 300;
     color: #55504b
 }
+
+/*
 
 div #general-info {
     margin-bottom: 50px;
@@ -120,9 +117,11 @@ div #bird-links {
     margin-bottom: 50px;
 }
 
+*/
+
 .content {
-    margin: 5px 100px;
-    padding: 5px 100px;
+    margin: 5px 50px;
+    padding: 5px 50px;
     border: none;
 }
 
@@ -132,104 +131,6 @@ hr {
     padding: 5px 100px;
 
 }
-
-/*
-#what-are-birds {
-    height: 100%;
-}
-*/
-/*
-
-#left-what-are {
-    padding-top: 30px;
-    width: 33%;
-    height: auto;
-    float: left;
-}
-
-#center-what-are {
-    width: 33%;
-    height: auto;
-    margin: 0 auto;
-    float: left;
-}
-
-#right-what-are {
-    padding-top: 30px;
-    width: 33%; 
-    height: auto;
-    float: left;
-}
-/*
-#where-are {
-    height: 400px;
-    margin: 5px 200px;
-    margin-bottom: 50px;
-}
-
-
-#left-where-are {
-    padding-top: 30px;
-    width: 33%;
-    height: auto;
-    float: left;
-}
-
-#center-where-are {
-    width: 33%;
-    margin: 0 auto;
-    float: left;
-}
-
-#left-where-are {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#why-bother {
-    height: 400px;
-    margin: 5px 200px;
-    margin-bottom: 50px;
-}
-
-#left-why-bother {
-    padding-top: 30px;
-    width: 30%;
-    float: left;
-}
-
-#right-why-bother {
-    padding-top: 30px;
-    width: 70%;
-    float:left;
-}
-
-#activities {
-    height: 400px;
-    margin: 5px 200px;
-    margin-bottom: 50px;
-}
-
-#left-activities {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#center-activities {
-    width: 33%;
-    margin: 0 auto;
-    float: left;
-}
-
-#right-activities {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-*/
 
 /*headings and logo */
 
@@ -244,6 +145,12 @@ hr {
 }
 .introduction {
     padding-top: 10px;
+}
+
+
+
+.content h2 {
+    color: #bee8cf;
 }
 
 .container {
@@ -449,8 +356,6 @@ hr {
     text-align: right;
 }
 
-
-
 #box5-2-2 {
     float: right;
     width: 800px;
@@ -464,7 +369,6 @@ hr {
     width: 900px;
     height: 190px;
     background-color: white;
-
 }
 
 /* bird links */
@@ -475,7 +379,7 @@ hr {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
     letter-spacing: 3px;
 }
 
@@ -488,16 +392,10 @@ hr {
     padding: 10px;
 }
 
-a#bird-links {
-    color: #3c7ba5;
-    text-decoration: none;
-    font-weight: bold;
-}
-
 #bird-links a:hover {
-    color: #bee8cf;
+    color: #ffffff;
+    background-color: #fee3e0;
 }
-
 
 #bird-links {
     color: #55504b;
@@ -513,31 +411,30 @@ a#bird-links {
 
 /* boxes for content */
 
+.bird-name {
+    
+}
+
 .info {
-    height: 600px;
+    height: 400px;
     font-family: Roboto, Helvetica, sans-serif;
     background-color: #ffffff;
-}
-
-.bird-left {
-    width: 50%;
-    float: left;
-}
-
-.bird-right {
-    width: 50%;
-    float: right;
+    width: 900px;
+    padding: px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bird-info-left {
-    padding-top: 30px;
-    width: 50%;
+    padding-top: 3px;
+    width: 30%;
     float: left;
 }
 
 .bird-info-right {
-    padding-top: 30px;
-    width: 50%;
+    padding-top: 3px;
+    width: 70%;
     float: right;
 }
 
@@ -546,14 +443,15 @@ img {
     height: auto;
 }
 
+.birds {
+    height: 200px;
+}
 
 /* footer */
 
-
-
 footer {
     font-family: Roboto, Helvetica, sans-serif;
-    color: #291909;
+    color: #6d8c73;
     background-color: #fee3e0;
     width: absolute 100%;
     text-align: center;
@@ -564,7 +462,6 @@ footer {
     line-height: 1.6;
     position: relative;
 }
-
 
 #bird-links-footer {
     border-width: 1px 0;
@@ -584,7 +481,7 @@ footer {
     display: inline-block;
     padding: 10px;
 
-    color: #291909;
+    color: #6d8c73;
     text-decoration: none;
     font-weight: bold;
 }
