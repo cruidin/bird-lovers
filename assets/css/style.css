@@ -10,7 +10,7 @@
 body {
     font-family: Roboto, cursive;
     font-weight: 300;
-    color: #bee8cf;
+    color: #67a35f;
     background-color: #ffffff;
     line-height: 1.6;
     letter-spacing: 2px;
@@ -98,7 +98,7 @@ h2 {
 
 .nav a:hover {
     color: #ffffff;
-    background-color: #fee3e0;
+    background-color: #e4b9b4;
 }
 
 section {
@@ -150,7 +150,7 @@ hr {
 
 
 .content h2 {
-    color: #bee8cf;
+    color: #67a35f;
 }
 
 .container {
@@ -365,6 +365,10 @@ hr {
     text-align: left;
 }
 
+#portrait {
+    height: 200px;
+}
+
 #empty-box {
     width: 900px;
     height: 190px;
@@ -394,7 +398,7 @@ hr {
 
 #bird-links a:hover {
     color: #ffffff;
-    background-color: #fee3e0;
+    background-color: #e4b9b4;
 }
 
 #bird-links {
@@ -451,8 +455,8 @@ img {
 
 footer {
     font-family: Roboto, Helvetica, sans-serif;
-    color: #6d8c73;
-    background-color: #fee3e0;
+    color: #ffffff;
+    background-color: #e4b9b4;
     width: absolute 100%;
     text-align: center;
     letter-spacing: 3px;
@@ -481,28 +485,16 @@ footer {
     display: inline-block;
     padding: 10px;
 
-    color: #6d8c73;
+    color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 #bird-links-footer a:hover {
-    color: #ffffff;
+    color: #67a35f;
+    background-color: #ffffff;
 }
 
-/*
-#bird-links-footer {
-    color: #55504b;
-    width: 100%;
-    text-align: center;
-    font-family: Roboto, Helvetica, sans-serif;
-    line-height: 1.6;
-}
-
-#bird-links-footer a {
-    color: #6d8c73;
-}
-*/
 footer a {
     color: #ffffff;
 }
