@@ -420,7 +420,7 @@ hr {
 }
 
 .info {
-    height: 400px;
+    height: 500px;
     font-family: Roboto, Helvetica, sans-serif;
     background-color: #ffffff;
     width: 900px;
@@ -440,6 +440,7 @@ hr {
     padding-top: 3px;
     width: 60%;
     float: right;
+    text-align: left;
 }
 
 img {
