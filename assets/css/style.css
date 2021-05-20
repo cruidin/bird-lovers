@@ -33,11 +33,13 @@ header {
     margin: 0px;
     padding: 0px;
     border: none;
-    position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+    /*
+    position: fixed; 
+  top: 0; 
   width: 100%;
-  margin-top: 30px;
-  z-index:1000;
+  margin-top: 0px;
+  z-index:1000; 
+  */
 }
 
 h1,
@@ -63,7 +65,8 @@ h2 {
 /* navigation links */
 
 #menu {
-    padding: 5px 0 20px 0;
+    padding: 5px 0 5px 0;
+    background-color: white;
 }
 
 .nav {
@@ -101,16 +104,13 @@ section {
 
 
 #hero-image {
-    height: 450px;
+    height: 420px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     border-color: #6d8c73;
-    margin: 0px;
-    margin-bottom: 20px;
-    padding: 0;
-    border: none;
+   
 }
 
 
