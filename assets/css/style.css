@@ -128,7 +128,7 @@ div #bird-links {
 
 .content {
     margin: 5px 50px;
-    padding: 5px 50px;
+    padding: 10px 50px;
     border: none;
 }
 
@@ -396,6 +396,11 @@ hr {
 
 /* bird links */
 
+div #general-info {
+    margin-bottom: 50px;
+    width: 900px;
+}
+
 #bird-links {
     border-width: 1px 0;
     list-style: none;
@@ -468,6 +473,21 @@ img {
 
 .birds {
     height: 200px;
+}
+
+#next-page {
+     border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#next-page li {
+    display: inline;
+    list-style: none;
 }
 
 /* footer */
