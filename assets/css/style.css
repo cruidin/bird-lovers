@@ -162,7 +162,7 @@ hr {
 
 .container {
     width: 900px;
-    height: 300px;
+    height: 350px;
     background-color: #ffffff;
     padding-top: 0;
     padding-left: 15px;
@@ -203,7 +203,7 @@ hr {
 
 #container2 {
     width: 900px;
-    height: 400px;
+    height: 300px;
     background-color: #ffffff;
     padding-top: 0;
     padding-left: 15px;
@@ -256,7 +256,7 @@ hr {
 
 #container3 {
      width: 900px;
-    height: 400px;
+    height: 380px;
     background-color: #ffffff;
     padding-top: 0;
     padding-left: 15px;
@@ -293,6 +293,10 @@ hr {
     background-color: white;
     border: none;
     text-align: left;
+}
+
+#activities {
+    padding: 0 100px 0 100px;
 }
 
 #container4 {
@@ -372,17 +376,14 @@ hr {
     padding-left: 30px;
 }
 
+#box5-2-2 a {
+    color: #67a35f;
+}
+
 #portrait {
     height: 200px;
     float: center;
 }
-/*
-#empty-box {
-    width: 900px;
-    height: 190px;
-    background-color: white;
-}
-*/
 
 #back-top {
     width: 700px;
@@ -392,6 +393,10 @@ hr {
     margin-top: 10px;
     display: flex;
     text-justify: right;
+}
+
+#back-top a {
+    color: #67a35f;
 }
 
 /* bird links */
