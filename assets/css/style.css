@@ -150,11 +150,14 @@ hr {
     text-align: center;
     padding: 5px 0 20px 0;
 }
+
 .introduction {
     padding-top: 10px;
 }
 
-
+.introduction a {
+    color: #67a35f;
+}
 
 .content h2 {
     color: #67a35f;
@@ -190,6 +193,9 @@ hr {
     background-color: white;
     border: none;
     margin: 0 auto;
+}
+#box-3-3 a {
+    color: #67a35f;
 }
 
 #box-3-3 {
@@ -297,6 +303,10 @@ hr {
 
 #activities {
     padding: 0 100px 0 100px;
+}
+
+#activities a {
+    color: #67a35f;
 }
 
 #container4 {
