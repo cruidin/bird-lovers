@@ -554,6 +554,13 @@ footer a {
     color: #ffffff;
 }
 
+/* contact.html */
+
+#contact-blurb {
+    height: 400px;
+    padding: 50px 0 50px 0;
+}
+
 /* form */
 
 .container form {
@@ -565,6 +572,10 @@ footer a {
     margin-bottom: 100px;
 }
 
+input {
+    outline-color: #94a798;
+}
+
 input[type=text],
 select,
 textarea {
@@ -574,7 +585,7 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-    position: top;
+    vertical-align: top;
 }
 
 input[type=email],
@@ -634,3 +645,25 @@ input[type=submit] {
     float: right;
 }
 
+input[type=submit]:hover {
+    background-color: #67a35f;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
