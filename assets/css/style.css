@@ -44,11 +44,11 @@ header {
 
 h1,
 h2 {
-    font-family: Girassol, cursive;
+    font-family: Girassol, helvetica, sans-serif;
 }
 
 #logo {
-    font-size: 250%;
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
@@ -75,7 +75,7 @@ h2 {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 3px;
 }
 
@@ -105,7 +105,7 @@ section {
 /* hero image */
 
 #hero-image {
-    height: 420px;
+    height: 750px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
@@ -134,9 +134,9 @@ div #bird-links {
 }
 
 hr {
-    border-top: 1px solid #291909;
-    margin: 5px 100px;
-    padding: 5px 100px;
+    border-top: 1px solid #c78f89;
+    margin: 10px 100px;
+    padding: 10px 100px;
 
 }
 
@@ -165,7 +165,7 @@ hr {
 }
 
 .container {
-    width: 900px;
+    width: 1200px;
     height: 350px;
     background-color: #ffffff;
     padding-top: 0;
@@ -180,21 +180,14 @@ hr {
 
 #box-1-3 {
     float: left;
-    width: 300px;
-    height: 260px;
+    width: 1200px;
+    height: 200px;
     background-color: white;
     border: none;
     text-align: right;
+    padding-right: 100px;
 }
 
-#box-2-3 {
-    float: left;
-    width: 300px;
-    height: 260px;
-    background-color: white;
-    border: none;
-    margin: 0 auto;
-}
 
 #box-3-3 a {
     color: #67a35f;
@@ -205,8 +198,6 @@ hr {
     width: 300px;
     height: 260px;
     background-color: white;
-    border: none;
-    text-align: left;
 }
 
 
@@ -254,7 +245,7 @@ hr {
 
 #box3-1-3 {
     float: left;
-    width: 300px;
+    width: 600px;
     height: 260px;
     background-color: white;
     border: none;
@@ -268,11 +259,12 @@ hr {
     background-color: white;
     border: none;
     margin: 0 auto;
+    padding: 0 100px 0 100px;
 }
 
 #box3-3-3 {
     float: right;
-    width: 300px;
+    width: 600px;
     height: 260px;
     background-color: white;
     border: none;
@@ -281,12 +273,12 @@ hr {
 
 #activities {
     padding: 0 100px 0 100px;
+    width: 1230px;
 }
 
 #activities a {
     color: #67a35f;
 }
-
 
 
 #box4-1-3 {
@@ -339,7 +331,7 @@ hr {
 
 #box5-2-2 {
     float: right;
-    width: 800px;
+    width: 1000px;
     height: 300px;
     background-color: white;
     border: none;
@@ -627,9 +619,58 @@ input[type=submit]:hover {
 
 /* media queries */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1500px) {
     .container {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+        center: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    .box-center {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0;
+        height: 50px;
+    }
+
+    /* birds.html */
+
+    .info {
         width: 70%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bird-info-left {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .bird-info-right {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-device-width : 480px) {
+    .container {
+        width: 90%;
         height: auto;
         margin: 0 auto;
         display: flex;
@@ -647,10 +688,14 @@ input[type=submit]:hover {
         width: 100%;
     }
 
+    .box-center > img {
+        height: 50%;
+    }
+
     /* birds.html */
 
     .info {
-        width: 70%;
+        width: 90%;
         height: auto;
         margin: 0 auto;
         display: flex;
@@ -667,12 +712,6 @@ input[type=submit]:hover {
         float: center;
         padding: 0;
     }
-}
-
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
 }
 
 /* Smartphones (landscape) ----------- */
