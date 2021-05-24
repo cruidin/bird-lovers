@@ -521,11 +521,11 @@ footer a {
     padding: 50px 0 50px 0;
 }
 
-#contact-blurb > img {
+#contact-blurb>img {
     height: 170px;
 }
 
-.social-links > li {
+.social-links>li {
     display: inline;
 }
 
@@ -627,48 +627,59 @@ input[type=submit]:hover {
 
 /* media queries */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
     .container {
-        width: 65%;
-        height: 1200px;
+        width: 70%;
+        height: auto;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
     }
 
-    #box-1-3, #box-3-3 {
+    .box {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #box-2-3 {
+    .box-center {
         clear: both;
         width: 100%;
     }
 
-    
-
     /* birds.html */
 
-    .
+    .info {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bird-info-left {
+        width: 100%;
+        float: center;
+        padding: 0;
+    }
+
+    .bird-info-right {
+        width: 100%;
+        float: center;
+        padding: 0;
+    }
 }
 
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/* Styles */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-/* Styles */
+@media only screen and (min-width : 321px) {
+    /* Styles */
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-/* Styles */
+@media only screen and (max-width : 320px) {
+    /* Styles */
