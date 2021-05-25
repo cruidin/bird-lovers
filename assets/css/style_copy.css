@@ -33,7 +33,6 @@ header {
     margin: 0px;
     padding: 0px;
     border: none;
-
     /*
     position: fixed; 
   top: 0; 
@@ -103,6 +102,19 @@ section {
     color: #55504b
 }
 
+/* hero image */
+/*
+#hero-image {
+    height: 300px;
+    width: 1000px;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    border-color: #6d8c73;
+    background-position: center;
+}
+
+*/
 /*
 
 div #general-info {
@@ -115,34 +127,6 @@ div #bird-links {
 
 */
 
-#top-images {
-    background-color: #ffffff;
-    margin-top: 10px;
-    margin: auto;
-}
-
-#top-images>img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
-#top-left {
-    float: left;
-    width: 200px;
-}
-
-#top-center {
-    float: center;
-    width: 200px;
-}
-
-#top-right {
-    float: right;
-    width: 200px;
-}
-
 .content {
     margin: 5px 50px;
     padding: 10px 50px;
@@ -153,7 +137,7 @@ hr {
     border-top: 1px solid #c78f89;
     margin: 10px 100px;
     padding: 10px 100px;
-    width: auto;
+
 }
 
 /*headings and logo */
@@ -162,10 +146,6 @@ hr {
 /* birds.html */
 
 /* index.html divs */
-
-#box-left {}
-
-#box-right {}
 
 #intro {
     text-align: center;
@@ -184,9 +164,8 @@ hr {
     color: #67a35f;
 }
 
-
 .container {
-    width: auto;
+    width: 900px;
     height: 350px;
     background-color: #ffffff;
     padding-top: 0;
@@ -294,7 +273,7 @@ hr {
 
 #activities {
     padding: 0 100px 0 100px;
-    width: auto;
+    width: 900px;
 }
 
 #activities a {
@@ -639,7 +618,7 @@ input[type=submit]:hover {
 }
 
 /* media queries */
-/*
+
 @media screen and (max-width: 1500px) {
     .container {
         width: 65%;
@@ -666,7 +645,7 @@ input[type=submit]:hover {
     }
 
     /* birds.html */
-/*
+
     .info {
         width: 70%;
         height: auto;
@@ -686,3 +665,61 @@ input[type=submit]:hover {
         padding: 0;
     }
 }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-device-width : 480px) {
+    .container {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .box-center {
+        clear: both;
+        width: 100%;
+    }
+
+    .box-center > img {
+        height: 50%;
+    }
+
+    /* birds.html */
+
+    .info {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bird-info-left {
+        width: 100%;
+        float: center;
+        padding: 0;
+    }
+
+    .bird-info-right {
+        width: 100%;
+        float: center;
+        padding: 0;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+
