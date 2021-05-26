@@ -427,8 +427,11 @@ div #general-info {
 }
 
 #bird-links {
-    border-width: 1px 0;
-    list-style: none;
+    color: #55504b;
+    width: 70%;
+    text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -443,6 +446,7 @@ div #general-info {
 #bird-links a {
     display: inline-block;
     padding: 10px;
+    color: #6d8c73;
 }
 
 #bird-links a:hover {
@@ -450,17 +454,6 @@ div #general-info {
     background-color: #e4b9b4;
 }
 
-#bird-links {
-    color: #55504b;
-    width: 100%;
-    text-align: center;
-    font-family: Roboto, Helvetica, sans-serif;
-    line-height: 1.6;
-}
-
-#bird-links a {
-    color: #6d8c73;
-}
 
 /* boxes for content */
 
