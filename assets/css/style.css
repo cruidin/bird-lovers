@@ -292,8 +292,13 @@ div.pre-wrap {
 
 #why {
     text-align: center;
-    height: 400px;
+    height: 550px;
     width: 70%;
+}
+
+#why-image > img {
+    height: 200px;
+    margin: auto;
 }
 
 #box3-1-3 {
