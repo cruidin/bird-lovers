@@ -101,8 +101,7 @@ h2 {
 section {
     font-family: Roboto, Helvetic, sans-serif;
     font-weight: 300;
-    color: #55504b
-    margin: auto;
+    color: #55504b margin: auto;
 }
 
 div {
@@ -172,11 +171,6 @@ hr {
 
 /* index.html divs */
 
-
-#box-left {}
-
-#box-right {}
-
 .intro {
     text-align: center;
     margin: 0 auto;
@@ -192,7 +186,7 @@ hr {
     background-color: white;
 }
 
-#intro-box > p {
+#intro-box>p {
     color: #55504b;
     background-color: transparent;
     font-size: 110%;
@@ -246,7 +240,7 @@ div.pre-wrap {
     margin: auto;
 }
 
-#running-image > img {
+#running-image>img {
     height: 200px;
     margin: auto;
 }
@@ -296,7 +290,7 @@ div.pre-wrap {
     width: 70%;
 }
 
-#why-image > img {
+#why-image>img {
     height: 200px;
     margin: auto;
 }
@@ -364,15 +358,15 @@ div.pre-wrap {
     border: none;
 }
 
-#drawing {
+#drawing-img {
     height: 200px;
 }
 
-#walking {
+#walking-img {
     height: 200px;
 }
 
-#coffee {
+#coffee-img {
     height: 200px;
 }
 
@@ -437,7 +431,7 @@ div #general-info {
     text-align: center;
     font-family: Roboto, Helvetica, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
     font-size: 100%;
@@ -513,6 +507,33 @@ img {
     list-style: none;
 }
 
+/* activities.html */
+
+#intro-box-activities {
+    text-align: center;
+    height: 600px;
+    width: 60%;
+    background-color: white;
+}
+
+#intro-box-activities>p {
+    color: #55504b;
+    background-color: transparent;
+    font-size: 110%;
+}
+
+#flock {
+    padding: 0 100px 0 100px;
+    text-align: center;
+    height: 200px;
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+
+
+
 /* footer */
 
 footer {
@@ -563,9 +584,28 @@ footer a {
 
 /* contact.html */
 
+.content #contact-box {
+    margin: 0 auto;
+    padding: 10px 50px;
+    border: none;
+    height: 50px;
+    width: 70%;
+}
+
+#contact-box {
+    text-align: center;
+    height: 180px;
+    width: 60%;
+    background-color: white;
+}
+
+
+
 #contact-blurb {
-    height: 400px;
-    padding: 50px 0 50px 0;
+    height: 500px;
+    width: 60%;
+    padding: 100px 0 50px 0;
+    margin: 0 auto;
 }
 
 #contact-blurb>img {
