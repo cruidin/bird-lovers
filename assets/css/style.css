@@ -177,9 +177,12 @@ hr {
 
 #box-right {}
 
-#intro {
+.intro {
     text-align: center;
-    padding: 5px 0 20px 0;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 60%;
+    height: fit-content;
 }
 
 #intro-box {
@@ -231,8 +234,9 @@ div.pre-wrap {
 
 #what {
     padding: 0 100px 0 100px;
-    width: auto;
-    height: 400px;
+    text-align: center;
+    height: 500px;
+    width: 60%;
     position: relative;
     margin: auto;
 }
@@ -279,19 +283,18 @@ div.pre-wrap {
     position: relative;
 }
 
-#birds-park {
+.birds-box2 {
     height: 200px;
-}
-
-#birds-city {
-    height: 200px;
-}
-
-#birds-houses {
-    height: 200px;
+    width: 200px;
+    overflow: hidden;
 }
 
 
+#why {
+    text-align: center;
+    height: 400px;
+    width: 70%;
+}
 
 #box3-1-3 {
     float: left;
@@ -299,17 +302,17 @@ div.pre-wrap {
     height: 260px;
     background-color: white;
     border: none;
-    text-align: right;
+    text-align: left;
 }
 
 #box3-2-3 {
     float: left;
     width: 200px;
-    height: 260px;
+    height: 50%;
     background-color: white;
     border: none;
     margin: 0 auto;
-    padding: 0 100px 0 100px;
+    padding: 0 20px 0 20px;
 }
 
 #box3-3-3 {
@@ -318,12 +321,12 @@ div.pre-wrap {
     height: 260px;
     background-color: white;
     border: none;
-    text-align: left;
+    text-align: right;
 }
 
 #activities {
     padding: 0 100px 0 100px;
-    width: auto;
+    width: 60%;
 }
 
 #activities a {
@@ -368,7 +371,10 @@ div.pre-wrap {
     height: 200px;
 }
 
-
+#who {
+    text-align: center;
+    width: 70%;
+}
 
 #box5-1-2 {
     float: left;
@@ -400,6 +406,7 @@ div.pre-wrap {
 
 #back-top {
     width: 700px;
+    height: 20px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
