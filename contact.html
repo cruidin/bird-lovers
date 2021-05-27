@@ -34,23 +34,18 @@
 
     <div id="top-images"><img src="/assets/images/hero-image3.jpg" alt=""></div>
 
-
-    <section class="content">
-        <div id="contact-box">
-            <h1>Let's Be Friends!</h1>
-        </div>
-    
-    <hr>
-
-    <br>
-    <div class="container">
-        <div id="contact-blurb">
-            <img src="/assets/images/logo-pink.jpg" alt="" id="portrait">
-
-            <p>If you would like to stay in touch you can fill out the form below to
-                send me a message.
-            </p>
+    <section id="contact-blurb">
+        <div>
+            <h2 id="friends">Let's Be Friends!</h2>
             <br>
+            <p>If you would like to join me in one of my bird adventures or just say hello you can do so by filling out
+                the form below. Alternatively you can find me on Instagram, Twitter and GitHub.</p>
+            <br>
+            
+    </section>
+    <hr>
+    <section id="contact-blurb">
+
             <ul class="social-links">
                 <li><a href="http://instagram.com/birdsofmagic" target="_blanket" rel="noopener"
                         aria-label="Visit my Instagram page (opens in a new page"><i
@@ -62,47 +57,45 @@
                         aria-label="Visit my GitHub page (opens in a new page"><i class="fab fa-github-square"></i></a>
                 </li>
             </ul>
-            <br>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="form">
+            <form action="" method="POST">
+                <div class="row">
+                    <div class="form-left">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-right">
+                        <input type="text" name="name" id="name" required placeholder="Your name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-left">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="form-right">
+                        <input type="email" name="email" id="email" required placeholder="Your e-mail">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-left">
+                        <label for="subject" id="subject" required>Message</label>
+                    </div>
+                    <div class="form-right">
+                        <input type="text" name="subject" id="subject" placeholder="Your message">
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </form>
+
 
         </div>
-    </div>
-</section>
-    <div class="container" id="form">
-        <form action="" method="POST">
-            <div class="row">
-                <div class="form-left">
-                    <label for="name">Name</label>
-                </div>
-                <div class="form-right">
-                    <input type="text" name="name" id="name" required placeholder="Your name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="form-left">
-                    <label for="email">E-mail</label>
-                </div>
-                <div class="form-right">
-                    <input type="email" name="email" id="email" required placeholder="Your e-mail">
-                </div>
-            </div>
-            <div class="row">
-                <div class="form-left">
-                    <label for="subject" id="subject" required>Message</label>
-                </div>
-                <div class="form-right">
-                    <input type="text" name="subject" id="subject" placeholder="Your message">
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <input type="submit" value="Send">
-                </div>
-            </div>
-        </form>
-
-
-    </div>
-
+    </section>
     <br>
     <hr>
     <br>
