@@ -181,9 +181,14 @@ hr {
 
 #intro-box {
     text-align: center;
-    height: 180px;
-    width: 60%;
-    background-color: white;
+    width: 70%;
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: #ffffff;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #intro-box>p {
@@ -525,13 +530,19 @@ img {
 #flock {
     padding: 0 100px 0 100px;
     text-align: center;
-    height: 200px;
+    height: 250px;
     width: 90%;
     position: relative;
     margin: auto;
 }
 
-
+#drawing {
+    height: 500px;
+}
+#drawing > img {
+    width: 100px;
+    height: 100px;
+}
 
 
 /* footer */
@@ -713,14 +724,14 @@ input[type=submit]:hover {
 }
 
 /* media queries */
-/*
-@media screen and (max-width: 1500px) {
+
+@media screen and (max-width: 1000px) {
     .container {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
         display: flex;
-        flex-wrap: wrap;
+        flex-flow: wrap column;
     }
 
     .box {
@@ -740,13 +751,15 @@ input[type=submit]:hover {
     }
 
     /* birds.html */
-/*
+
     .info {
         width: 70%;
         height: auto;
         margin: 0 auto;
         display: flex;
-        flex-wrap: wrap;
+        flex-flow: wrap column;
+        align-items: center;
+
     }
     .bird-info-left {
         width: 100%;
