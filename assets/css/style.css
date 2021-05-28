@@ -34,14 +34,6 @@ header {
     margin: 0px;
     padding: 0px;
     border: none;
-
-    /*
-    position: fixed; 
-  top: 0; 
-  width: 100%;
-  margin-top: 0px;
-  z-index:1000; 
-  */
 }
 
 h1,
@@ -108,18 +100,7 @@ div {
     margin: auto;
 }
 
-
-/*
-
-div #general-info {
-    margin-bottom: 50px;
-}
-
-div #bird-links {
-    margin-bottom: 50px;
-}
-
-*/
+/* main image at the top on all pages */
 
 #top-images {
     background-color: #ffffff;
@@ -134,41 +115,13 @@ div #bird-links {
     width: 60%;
 }
 
-#top-left {
-    float: left;
-    width: 200px;
-}
-
-#top-center {
-    width: 200px;
-}
-
-#top-right {
-    float: right;
-    width: 200px;
-}
+/* initial blurb on pages birds.html activities.html and contact.html */
 
 .content {
     margin: 5px 50px;
     padding: 10px 50px;
     border: none;
 }
-
-hr {
-    border-top: 1px solid #c78f89;
-    margin: 0 100px;
-    padding: 10px 100px;
-    width: auto;
-}
-
-
-
-/*headings and logo */
-
-
-/* birds.html */
-
-/* index.html divs */
 
 .intro {
     text-align: center;
@@ -196,15 +149,6 @@ hr {
     font-size: 110%;
 }
 
-.introduction {
-    padding-top: 10px;
-    position: relative;
-}
-
-.introduction a {
-    color: #67a35f;
-}
-
 .content h2 {
     color: #67a35f;
 }
@@ -213,6 +157,16 @@ div.pre-wrap {
     white-space: pre-wrap;
 }
 
+/* same style on all pages */
+
+hr {
+    border-top: 1px solid #c78f89;
+    margin: 0 100px;
+    padding: 10px 100px;
+    width: auto;
+}
+
+/* main body of general information on all pages */
 
 .container {
     width: auto;
@@ -229,110 +183,6 @@ div.pre-wrap {
     margin: auto;
 }
 
-
-#running-image {
-    height: 100px;
-    margin: auto;
-}
-
-#running-image>img {
-    height: 200px;
-    margin: auto;
-    padding-right: 50px;
-}
-
-
-
-.birds-box2 {
-    height: 200px;
-    width: 200px;
-    overflow: hidden;
-}
-
-#why-image>img {
-    height: 200px;
-    margin: auto;
-}
-
-#activities {
-    padding: 0;
-    width: 60%;
-}
-
-#activities a {
-    color: #67a35f;
-}
-
-
-#walking-img {
-    height: 200px;
-}
-
-#coffee-img {
-    height: 200px;
-}
-
-#who {
-    width: 70%;
-}
-
-#portrait {
-    height: 200px;
-}
-
-#back-top {
-    width: 700px;
-    height: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    display: flex;
-    align-items: flex-end;
-}
-
-#back-top a {
-    color: #67a35f;
-}
-
-/* bird links */
-
-div #general-info {
-    margin-bottom: 50px;
-    width: 900px;
-}
-
-#bird-links {
-    color: #55504b;
-    width: 70%;
-    text-align: center;
-    font-family: Roboto, Helvetica, sans-serif;
-    line-height: 1.6;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-    font-size: 100%;
-    letter-spacing: 3px;
-}
-
-#bird-links li {
-    display: inline;
-}
-
-#bird-links a {
-    display: inline-block;
-    padding: 10px;
-    color: #6d8c73;
-}
-
-#bird-links a:hover {
-    color: #ffffff;
-    background-color: #e4b9b4;
-}
-
-
-/* boxes for content */
-
 .info {
     height: 550px;
     font-family: Roboto, Helvetica, sans-serif;
@@ -343,6 +193,8 @@ div #general-info {
     align-items: center;
     justify-content: center;
 }
+
+/* left (images) and right (text) divs for pages index.html birds.html and activities.html */
 
 .bird-info-left {
     padding-top: 0px;
@@ -362,6 +214,8 @@ div #general-info {
     text-align: center;
 }
 
+/* images */
+
 img {
     max-width: 100%;
     height: auto;
@@ -369,46 +223,85 @@ img {
     border-radius: 25%;
 }
 
-.birds {
+#running-image {
+    height: 100px;
+    margin: auto;
+}
+
+#running-image>img {
+    height: 200px;
+    margin: auto;
+    padding-right: 50px;
+}
+
+#why-image>img {
+    height: 200px;
+    margin: auto;
+}
+
+#walking-img {
     height: 200px;
 }
 
-.next-page {
-    border-width: 1px 0;
-    list-style: none;
-    margin: 0;
+#coffee-img {
+    height: 200px;
+}
+
+
+/* link to return to the top of the page, lands on header */
+
+#back-top {
+    width: 700px;
+    height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#back-top a {
+    color: #67a35f;
+}
+
+/* bird links on birds.html */
+
+#bird-links {
+    color: #55504b;
+    width: 70%;
+    text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
     padding: 0;
-    text-align: right;
+    text-align: center;
     font-size: 110%;
     letter-spacing: 3px;
 }
 
-#next-page li {
+#bird-links li {
     display: inline;
-    list-style: none;
+}
+
+#bird-links a {
+    display: inline-block;
+    padding: 10px;
+    color: #6d8c73;
+}
+
+#bird-links a:hover {
+    color: #ffffff;
+    background-color: #e4b9b4;
 }
 
 /* activities.html */
-
-#intro-box-activities {
-    text-align: center;
-    height: 600px;
-    width: 60%;
-    background-color: white;
-}
-
-#intro-box-activities>p {
-    color: #55504b;
-    background-color: transparent;
-    font-size: 110%;
-}
 
 #fun {
     height: 700px;
     font-family: Roboto, Helvetica, sans-serif;
     background-color: #ffffff;
     width: 900px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -417,21 +310,9 @@ img {
     padding-right: 100px;
     padding-bottom: 0px;
     margin-top: 10px;
-    
     position: relative;
     margin: auto;
 }
-
-#flock {
-    padding: 0 100px 0 100px;
-    text-align: center;
-    height: 250px;
-    width: 90%;
-    position: relative;
-    margin: auto;
-}
-
-
 
 /* footer */
 
@@ -483,48 +364,12 @@ footer a {
 
 /* contact.html */
 
-.content #contact-box {
-    margin: 0 auto;
-    padding: 10px 50px;
-    border: none;
-    height: 50px;
-    width: 70%;
-}
-
-#contact-box {
-    text-align: center;
-    height: 180px;
-    width: 60%;
-    background-color: white;
-}
-
-
-
-.contact-blurb {
-    height: 100px;
-    width: 60%;
-    padding: 10px 0 50px 0;
-    margin: 0 auto;
-}
-
-#friends {
-    text-align: center;
-    margin: 0 auto;
-    width: 60%;
-    height: fit-content;
-}
-
-.contact-blurb>img {
-    height: 170px;
-}
-
 ul.social-links {
     text-align: center;
 }
 
 .social-links>li {
     display: inline;
-   
     color: #67a35f;
     margin: 5px;
     padding: 5px;
@@ -613,138 +458,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #67a35f;
 }
-
-/* media queries */
-
-@media screen and (max-width: 1000px) {
-    .container {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: wrap column;
-    }
-
-    .box-center {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-        margin: 0;
-        height: 50px;
-    }
-
-    /* birds.html */
-
-    .info {
-        width: 70%;
-        height: auto;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: wrap column;
-        align-items: center;
-
-    }
-    .bird-info-left {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .bird-info-right {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    /* form */
-
-    .form-left, .form-right, input[type=submit] {
-    width: 70%;
-    margin-top: 0;
-    display: flex;
-    flex-flow: column wrap;
-  }
-}
-
-@media screen and (max-width: 750px) {
-    body {
-        width: 100%;
-       padding: 0;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: wrap column;
-    }
-
-    #top-images>img {
-        width: 300px;
-    }
-
-    .container {
-        width: 100%;
-        padding: 10px 0;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: wrap column;
-    }
-
-    .content {
-        width: 100%;
-        padding: 10px 0;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: wrap column;
-    }
-}
-/*
-
-@media(min-width: 576px){
-  .container{
-    max-width: 540px;
-  }
-}
-
-@media(min-width: 768px){
-  .container{
-    max-width: 720px
-  }
-}
-
-#survey-form{
-   background: rgba(21, 20, 85, 0.7);
-   padding: 2.3rem 0.5rem;
-   border-radius: 0.3rem;
-}
-
-.form-input{
-   margin: 0 2.5rem 1.2rem 2rem;
-}
-
-.form-input-size{
-   display: block;
-   width: 100%;
-   height: 1.5rem;
-   padding: 0.3rem 0.4rem;
-   border-radius: 0.2rem;
-   outline: 0;
-   border-style: none;
-   margin-top: 0.4rem;  
-}
-
-#check-box {
- margin-right: 0.5rem;
- min-height: 1.2rem;
- min-width: 1.2rem;
-}
-
-label {
- display: flex;
- align-items: center;
- font-size: 1.125rem;
- margin-bottom: 0.5rem;
-}
-
-*/
 
 /* form from https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 */
 
@@ -835,4 +548,87 @@ form p {
 
 .flex-inner li {
   width: 100px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    .box-center {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0;
+        height: 50px;
+    }
+
+    /* birds.html */
+
+    .info {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+
+    }
+    .bird-info-left {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .bird-info-right {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    /* form */
+
+    .form-left, .form-right, input[type=submit] {
+    width: 70%;
+    margin-top: 0;
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        width: 100%;
+       padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    #top-images>img {
+        width: 300px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    .content {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap column;
+    }
 }
