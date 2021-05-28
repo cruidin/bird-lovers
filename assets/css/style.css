@@ -59,7 +59,6 @@ h2 {
     color: #ffffff;
     background-color: #67a35f;
     height: 70px;
-    float: center;
     position: relative;
 }
 
@@ -90,7 +89,6 @@ h2 {
     padding: 10px;
     color: #6d8c73;
     text-decoration: none;
-    font-weight: none;
 }
 
 .nav a:hover {
@@ -101,7 +99,8 @@ h2 {
 section {
     font-family: Roboto, Helvetic, sans-serif;
     font-weight: 300;
-    color: #55504b margin: auto;
+    color: #55504b; 
+    margin: auto;
 }
 
 div {
@@ -140,7 +139,6 @@ div #bird-links {
 }
 
 #top-center {
-    float: center;
     width: 200px;
 }
 
@@ -179,7 +177,7 @@ hr {
     height: fit-content;
 }
 
-#intro-box {
+.intro-box {
     text-align: center;
     width: 70%;
     font-family: Roboto, Helvetica, sans-serif;
@@ -263,7 +261,6 @@ div.pre-wrap {
 }
 
 #box2-2-3 {
-    float: center;
     width: 200px;
     height: 260px;
     background-color: white;
@@ -347,7 +344,6 @@ div.pre-wrap {
 }
 
 #box4-2-3 {
-    float: center;
     width: 200px;
     height: 260px;
     background-color: white;
@@ -403,7 +399,6 @@ div.pre-wrap {
 
 #portrait {
     height: 200px;
-    float: center;
 }
 
 #back-top {
@@ -414,7 +409,7 @@ div.pre-wrap {
     padding-bottom: 10px;
     margin-top: 10px;
     display: flex;
-    text-justify: right;
+    align-items: flex-end;
 }
 
 #back-top a {
@@ -486,7 +481,6 @@ div #general-info {
 img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #55504b groove;
     padding: 10px;
     border-radius: 25%;
 }
@@ -495,7 +489,7 @@ img {
     height: 200px;
 }
 
-#next-page {
+.next-page {
     border-width: 1px 0;
     list-style: none;
     margin: 0;
@@ -542,7 +536,7 @@ footer {
     font-family: Roboto, Helvetica, sans-serif;
     color: #ffffff;
     background-color: #e4b9b4;
-    width: absolute 100%;
+    width: absolute;
     text-align: center;
     letter-spacing: 3px;
     margin: 0px;
@@ -603,7 +597,7 @@ footer a {
 
 
 
-#contact-blurb {
+.contact-blurb {
     height: 100px;
     width: 60%;
     padding: 10px 0 50px 0;
@@ -617,7 +611,7 @@ footer a {
     height: fit-content;
 }
 
-#contact-blurb>img {
+.contact-blurb>img {
     height: 170px;
 }
 
@@ -627,6 +621,10 @@ ul.social-links {
 
 .social-links>li {
     display: inline;
+    font-size: 150%;
+    color: #67a35f;
+    margin: 5px;
+    padding: 5px;
 }
 
 .social-links i {
@@ -639,8 +637,8 @@ ul.social-links {
 /* form */
 
 .container form {
-    height: auto;
-    width: 900px;
+    height: 400px;
+    width: 600px;
     border-radius: 5px;
     background-color: #fff0f0;
     padding: 20px;
@@ -685,11 +683,9 @@ form {}
 
 label {
     padding: 15px 15px 15px 0;
-    display: inline block;
+    display: inline;
     float: right;
 }
-
-.row {}
 
 .form-left {
     float: left;
@@ -703,9 +699,10 @@ label {
     margin-top: 6px;
 }
 
-#name {}
-
-#email {}
+#activities-options {
+    display: flex;
+    align-items: flex-start;
+}
 
 #subject {
     height: 200px;
@@ -734,13 +731,6 @@ input[type=submit]:hover {
         margin: 0 auto;
         display: flex;
         flex-flow: wrap column;
-    }
-
-    .box {
-        width: 100%;
-        center: left;
-        padding: 0;
-        margin: 0;
     }
 
     .box-center {
@@ -774,4 +764,154 @@ input[type=submit]:hover {
         margin: 0 auto;
         padding: 0;
     }
+
+    /* form */
+
+    .form-left, .form-right, input[type=submit] {
+    width: 70%;
+    margin-top: 0;
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+/*
+
+@media(min-width: 576px){
+  .container{
+    max-width: 540px;
+  }
+}
+
+@media(min-width: 768px){
+  .container{
+    max-width: 720px
+  }
+}
+
+#survey-form{
+   background: rgba(21, 20, 85, 0.7);
+   padding: 2.3rem 0.5rem;
+   border-radius: 0.3rem;
+}
+
+.form-input{
+   margin: 0 2.5rem 1.2rem 2rem;
+}
+
+.form-input-size{
+   display: block;
+   width: 100%;
+   height: 1.5rem;
+   padding: 0.3rem 0.4rem;
+   border-radius: 0.2rem;
+   outline: 0;
+   border-style: none;
+   margin-top: 0.4rem;  
+}
+
+#check-box {
+ margin-right: 0.5rem;
+ min-height: 1.2rem;
+ min-width: 1.2rem;
+}
+
+label {
+ display: flex;
+ align-items: center;
+ font-size: 1.125rem;
+ margin-bottom: 0.5rem;
+}
+
+*/
+
+/* form from https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 */
+
+body form {
+  padding: 50px 0;
+}
+
+.container form {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: fit-content;
+}
+
+form p {
+    color: #67a35f;
+    background-color: transparent;
+}
+
+.flex-outer,
+.flex-inner {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-inner {
+  padding: 0 8px;
+  justify-content: space-between;  
+  align-items: flex-start;
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 8px;
+  font-weight: 300;
+  letter-spacing: .09em;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 200px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+.flex-outer li p {
+  margin: 0;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea {
+  padding: 15px;
+  border: none;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: small;
+  color: #c78f89;
+}
+
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #c78f89;
+  color: #f2f2f2;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+
+.flex-inner li {
+  width: 100px;
 }

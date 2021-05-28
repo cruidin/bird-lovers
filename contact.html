@@ -34,71 +34,87 @@
 
     <div id="top-images"><img src="/assets/images/hero-image3.jpg" alt=""></div>
 
-    <section id="contact-blurb">
+    <section class="contact-blurb">
         <div>
             <h2 id="friends">Let's Be Friends!</h2>
             <br>
             <p>If you would like to join me in one of my bird adventures or just say hello you can do so by filling out
                 the form below. Alternatively you can find me on Instagram, Twitter and GitHub.</p>
             <br>
-            
-    </section>
-    <hr>
-    <section id="contact-blurb">
-
-            <ul class="social-links">
-                <li><a href="http://instagram.com/birdsofmagic" target="_blanket" rel="noopener"
-                        aria-label="Visit my Instagram page (opens in a new page"><i
-                            class="fab fa-instagram-square"></i></a></li>
-                <li><a href="http://twitter.com/cruidin1" target="_blanket" rel="noopener"
-                        aria-label="Visit my Twitter page (opens in a new page"><i
-                            class="fab fa-twitter-square"></i></a></li>
-                <li><a href="http://github.com/cruidin" target="_blanket" rel="noopener"
-                        aria-label="Visit my GitHub page (opens in a new page"><i class="fab fa-github-square"></i></a>
-                </li>
-            </ul>
         </div>
     </section>
-    <section>
-        <div class="container" id="form">
-            <form action="" method="POST">
-                <div class="row">
-                    <div class="form-left">
-                        <label for="name">Name</label>
-                    </div>
-                    <div class="form-right">
-                        <input type="text" name="name" id="name" required placeholder="Your name">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-left">
-                        <label for="email">E-mail</label>
-                    </div>
-                    <div class="form-right">
-                        <input type="email" name="email" id="email" required placeholder="Your e-mail">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-left">
-                        <label for="subject" id="subject" required>Message</label>
-                    </div>
-                    <div class="form-right">
-                        <input type="text" name="subject" id="subject" placeholder="Your message">
-                    </div>
-                </div>
-                <div class="row">
-                    <div>
-                        <input type="submit" value="Send">
-                    </div>
-                </div>
-            </form>
-
-
-        </div>
-    </section>
-    <br>
     <hr>
+    <div class="contact-blurb">
+
+        <ul class="social-links">
+            <li><a href="http://instagram.com/birdsofmagic" target="_blank" rel="noopener"
+                    aria-label="Visit my Instagram page (opens in a new page"><i
+                        class="fab fa-instagram-square"></i></a></li>
+            <li><a href="http://twitter.com/cruidin1" target="_blank" rel="noopener"
+                    aria-label="Visit my Twitter page (opens in a new page"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li><a href="http://github.com/cruidin" target="_blank" rel="noopener"
+                    aria-label="Visit my GitHub page (opens in a new page"><i class="fab fa-github-square"></i></a>
+            </li>
+        </ul>
+        </div>
+    
+   
     <br>
+
+
+<!-- Got this from https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 -->
+<div class="container info">
+  <form method="POST" action="">
+    <ul class="flex-outer">
+      <li>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" placeholder="Enter your first name here">
+      </li>
+      <li>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" placeholder="Enter your last name here">
+      </li>
+      <li>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email here">
+      </li>
+      <li>
+        <label for="message">Message</label>
+        <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+      </li>
+      <li>
+        <p>Activity</p>
+        <ul class="flex-inner">
+          <li>
+            <input type="checkbox" id="drawing">
+            <label for="drawing">Drawing</label>
+          </li>
+          <li>
+            <input type="checkbox" id="walking">
+            <label for="walking">Walking</label>
+          </li>
+          <li>
+            <input type="checkbox" id="coffee">
+            <label for="coffee">Coffee</label>
+          </li>
+          <li>
+            <input type="checkbox" id="all">
+            <label for="all">All</label>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <button type="submit">Submit</button>
+      </li>
+    </ul>
+  </form>
+</div>
+
+<br>
+<hr>
+<br>
+
 
     <div id="back-top">
         <a href="#logo">Back to the top</a>
@@ -134,7 +150,7 @@
             <li><a href="birds.html#starling">Starling</a></li>
             <li><a href="birds.html#turnstone">Turnstone</a></li>
             <li><a href="birds.html#woodpigeon">Woodpigeon</a></li>
-            <li><a href="birds.html#" wren>Wren</a></li>
+            <li><a href="birds.html#wren">Wren</a></li>
 
         </ul>
     </footer>
