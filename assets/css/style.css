@@ -92,7 +92,7 @@ h2 {
 section {
     font-family: Roboto, Helvetic, sans-serif;
     font-weight: 300;
-    color: #55504b; 
+    color: #55504b;
     margin: auto;
 }
 
@@ -462,14 +462,14 @@ input[type=submit]:hover {
 /* form from https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 */
 
 body form {
-  padding: 50px 0;
+    padding: 50px 0;
 }
 
 .container form {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: fit-content;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: fit-content;
 }
 
 form p {
@@ -479,75 +479,75 @@ form p {
 
 .flex-outer,
 .flex-inner {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 .flex-outer {
-  max-width: 800px;
-  margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .flex-outer li,
 .flex-inner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .flex-inner {
-  padding: 0 8px;
-  justify-content: space-between;  
-  align-items: flex-start;
+    padding: 0 8px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.flex-outer > li:not(:last-child) {
-  margin-bottom: 20px;
+.flex-outer>li:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .flex-outer li label,
 .flex-outer li p {
-  padding: 8px;
-  font-weight: 300;
-  letter-spacing: .09em;
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
 }
 
-.flex-outer > li > label,
+.flex-outer>li>label,
 .flex-outer li p {
-  flex: 1 0 120px;
-  max-width: 200px;
+    flex: 1 0 120px;
+    max-width: 200px;
 }
 
-.flex-outer > li > label + *,
+.flex-outer>li>label+*,
 .flex-inner {
-  flex: 1 0 220px;
+    flex: 1 0 220px;
 }
 
 .flex-outer li p {
-  margin: 0;
+    margin: 0;
 }
 
 .flex-outer li input:not([type='checkbox']),
 .flex-outer li textarea {
-  padding: 15px;
-  border: none;
-  font-family: Roboto, Helvetica, sans-serif;
-  font-size: small;
-  color: #c78f89;
+    padding: 15px;
+    border: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: small;
+    color: #c78f89;
 }
 
 .flex-outer li button {
-  margin-left: auto;
-  padding: 8px 16px;
-  border: none;
-  background: #c78f89;
-  color: #f2f2f2;
-  letter-spacing: .09em;
-  border-radius: 2px;
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background: #c78f89;
+    color: #f2f2f2;
+    letter-spacing: .09em;
+    border-radius: 2px;
 }
 
 .flex-inner li {
-  width: 100px;
+    width: 100px;
 }
 
 /* media queries */
@@ -561,15 +561,6 @@ form p {
         flex-flow: wrap column;
     }
 
-    .box-center {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-        margin: 0;
-        height: 50px;
-    }
-
     /* birds.html */
 
     .info {
@@ -581,32 +572,37 @@ form p {
         align-items: center;
 
     }
+
     .bird-info-left {
         width: 100%;
         margin: 0 auto;
         padding: 0;
+        text-align: center;
     }
 
     .bird-info-right {
         width: 100%;
         margin: 0 auto;
         padding: 0;
+        text-align: justify;
     }
 
     /* form */
 
-    .form-left, .form-right, input[type=submit] {
-    width: 70%;
-    margin-top: 0;
-    display: flex;
-    flex-flow: column wrap;
-  }
+    .form-left,
+    .form-right,
+    input[type=submit] {
+        width: 70%;
+        margin-top: 0;
+        display: flex;
+        flex-flow: column wrap;
+    }
 }
 
 @media screen and (max-width: 750px) {
     body {
         width: 100%;
-       padding: 0;
+        padding: 0;
         margin: 0 auto;
         display: flex;
         flex-flow: wrap column;
@@ -631,4 +627,68 @@ form p {
         display: flex;
         flex-flow: wrap column;
     }
+}
+
+@media screen and (max-width: 900px) {
+    #top-images img {
+        width: 900px;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    #top-images img {
+        width: 150%;
+        border-radius: 0;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    .container {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    /* birds.html */
+
+    .info {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+
+    }
+
+    .bird-info-left {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .bird-info-right {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: justify;
+    }
+
 }
