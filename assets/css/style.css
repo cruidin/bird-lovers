@@ -22,11 +22,12 @@ p {
     color: #55504b;
     background-color: #ffffff;
     line-height: 1.6;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 a {
     text-decoration: none;
+    color: #67a35f;
 }
 
 header {
@@ -74,7 +75,7 @@ h2 {
     border-width: 1px 0;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-bottom: 15px;
     text-align: center;
     font-size: 120%;
     letter-spacing: 3px;
@@ -155,7 +156,7 @@ div #bird-links {
 
 hr {
     border-top: 1px solid #c78f89;
-    margin: 10px 100px;
+    margin: 0 100px;
     padding: 10px 100px;
     width: auto;
 }
@@ -215,7 +216,6 @@ div.pre-wrap {
 
 .container {
     width: auto;
-    height: 350px;
     background-color: #ffffff;
     padding-top: 0;
     padding-left: 100px;
@@ -229,14 +229,6 @@ div.pre-wrap {
     margin: auto;
 }
 
-#what {
-    padding: 0 100px 0 100px;
-    text-align: center;
-    height: 500px;
-    width: 60%;
-    position: relative;
-    margin: auto;
-}
 
 #running-image {
     height: 100px;
@@ -246,38 +238,10 @@ div.pre-wrap {
 #running-image>img {
     height: 200px;
     margin: auto;
+    padding-right: 50px;
 }
 
 
-#box2-1-3 {
-    float: left;
-    width: 200px;
-    height: 260px;
-    background-color: white;
-    border: none;
-    text-align: right;
-    margin: auto;
-    position: relative;
-}
-
-#box2-2-3 {
-    width: 200px;
-    height: 260px;
-    background-color: white;
-    border: none;
-    margin: 0 auto;
-    position: relative;
-}
-
-#box2-3-3 {
-    float: right;
-    width: 200px;
-    height: 260px;
-    background-color: white;
-    border: none;
-    text-align: left;
-    position: relative;
-}
 
 .birds-box2 {
     height: 200px;
@@ -285,80 +249,19 @@ div.pre-wrap {
     overflow: hidden;
 }
 
-
-#why {
-    text-align: center;
-    height: 550px;
-    width: 70%;
-}
-
 #why-image>img {
     height: 200px;
     margin: auto;
 }
 
-#box3-1-3 {
-    float: left;
-    width: 400px;
-    height: 260px;
-    background-color: white;
-    border: none;
-    text-align: left;
-}
-
-#box3-2-3 {
-    float: left;
-    width: 200px;
-    height: 50%;
-    background-color: white;
-    border: none;
-    margin: 0 auto;
-    padding: 0 20px 0 20px;
-}
-
-#box3-3-3 {
-    float: right;
-    width: 400px;
-    height: 260px;
-    background-color: white;
-    border: none;
-    text-align: right;
-}
-
 #activities {
-    padding: 0 100px 0 100px;
+    padding: 0;
     width: 60%;
 }
 
 #activities a {
     color: #67a35f;
 }
-
-
-#box4-1-3 {
-    float: left;
-    width: 200px;
-    height: 260px;
-    background-color: white;
-    border: none;
-}
-
-#box4-2-3 {
-    width: 200px;
-    height: 260px;
-    background-color: white;
-    border: none;
-    margin: 0 auto;
-}
-
-#box4-3-3 {
-    float: right;
-    width: 200px;
-    height: 260px;
-    background-color: white;
-    border: none;
-}
-
 
 
 #walking-img {
@@ -370,31 +273,7 @@ div.pre-wrap {
 }
 
 #who {
-    text-align: center;
     width: 70%;
-}
-
-#box5-1-2 {
-    float: left;
-    width: 200px;
-    height: 300px;
-    background-color: white;
-    border: none;
-    text-align: right;
-}
-
-#box5-2-2 {
-    float: right;
-    width: 800px;
-    height: 300px;
-    background-color: white;
-    border: none;
-    text-align: left;
-    padding-left: 30px;
-}
-
-#box5-2-2 a {
-    color: #67a35f;
 }
 
 #portrait {
@@ -455,11 +334,11 @@ div #general-info {
 /* boxes for content */
 
 .info {
-    height: 500px;
+    height: 550px;
     font-family: Roboto, Helvetica, sans-serif;
     background-color: #ffffff;
     width: 900px;
-    padding: 0px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -476,6 +355,11 @@ div #general-info {
     width: 60%;
     float: right;
     text-align: left;
+}
+
+.bird-info-left img {
+    height: 200px;
+    text-align: center;
 }
 
 img {
@@ -517,6 +401,25 @@ img {
     color: #55504b;
     background-color: transparent;
     font-size: 110%;
+}
+
+#fun {
+    height: 700px;
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: #ffffff;
+    width: 900px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    
+    position: relative;
+    margin: auto;
 }
 
 #flock {
@@ -621,17 +524,16 @@ ul.social-links {
 
 .social-links>li {
     display: inline;
-    font-size: 150%;
+   
     color: #67a35f;
     margin: 5px;
     padding: 5px;
 }
 
 .social-links i {
-    font-size: 150%;
+    display: inline;
+    font-size: 300%;
     color: #67a35f;
-    margin: 5px;
-    padding: 5px;
 }
 
 /* form */
