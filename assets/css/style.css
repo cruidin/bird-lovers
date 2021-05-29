@@ -11,9 +11,6 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: 300;
     color: #67a35f;
-    background-color: #ffffff;
-    line-height: 1.6;
-    letter-spacing: 2px;
 }
 
 p {
@@ -21,8 +18,8 @@ p {
     font-weight: 300;
     color: #55504b;
     background-color: #ffffff;
-    line-height: 1.6;
-    letter-spacing: 2px;
+    line-height: 1.8;
+    letter-spacing: 1.5px;
 }
 
 a {
@@ -30,15 +27,26 @@ a {
     color: #67a35f;
 }
 
+
 header {
     margin: 0px;
     padding: 0px;
     border: none;
 }
 
+section {
+  scroll-margin-top: 4rem;
+}
+
+
 h1,
 h2 {
     font-family: Girassol, helvetica, sans-serif;
+}
+
+h4 {
+    color: #c78f89;
+    font-weight: bold;
 }
 
 #logo {
@@ -55,6 +63,9 @@ h2 {
     position: relative;
 }
 
+.active {
+    background-color: #c5dac9;
+}
 
 /* navigation links */
 
@@ -103,7 +114,7 @@ div {
 /* main image at the top on all pages */
 
 #top-images {
-    background-color: #ffffff;
+    
     margin-top: 10px;
     margin: auto;
 }
@@ -118,7 +129,6 @@ div {
 /* initial blurb on pages birds.html activities.html and contact.html */
 
 .content {
-    margin: 5px 50px;
     padding: 10px 50px;
     border: none;
 }
@@ -135,7 +145,7 @@ div {
     text-align: center;
     width: 70%;
     font-family: Roboto, Helvetica, sans-serif;
-    background-color: #ffffff;
+   
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -170,10 +180,8 @@ hr {
 
 .container {
     width: auto;
-    background-color: #ffffff;
+    
     padding-top: 0;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-bottom: 0px;
     margin-top: 10px;
     display: flex;
@@ -184,9 +192,8 @@ hr {
 }
 
 .info {
-    height: 550px;
     font-family: Roboto, Helvetica, sans-serif;
-    background-color: #ffffff;
+    
     width: 900px;
     padding-bottom: 20px;
     display: flex;
@@ -198,13 +205,12 @@ hr {
 
 .bird-info-left {
     padding-top: 0px;
-    width: 40%;
-    float: left;
+    width: 30%;
 }
 
 .bird-info-right {
     padding-top: 0px;
-    width: 60%;
+    width: 50%;
     float: right;
     text-align: left;
 }
@@ -219,7 +225,6 @@ hr {
 img {
     max-width: 100%;
     height: auto;
-    padding: 10px;
     border-radius: 25%;
 }
 
@@ -251,7 +256,7 @@ img {
 /* link to return to the top of the page, lands on header */
 
 #back-top {
-    width: 700px;
+    width: 80%;
     height: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -269,7 +274,7 @@ img {
 
 #bird-links {
     color: #55504b;
-    width: 70%;
+    width: 90%;
     text-align: center;
     font-family: Roboto, Helvetica, sans-serif;
     line-height: 1.6;
@@ -300,7 +305,7 @@ img {
 #fun {
     height: 700px;
     font-family: Roboto, Helvetica, sans-serif;
-    background-color: #ffffff;
+   
     width: 900px;
     display: flex;
     align-items: center;
@@ -600,13 +605,9 @@ form p {
 }
 
 @media screen and (max-width: 750px) {
-    body {
-        width: 100%;
-        padding: 0;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: wrap column;
-    }
+   section {
+       width: 90%;
+   }
 
     #top-images>img {
         width: 300px;
@@ -637,13 +638,7 @@ form p {
 }
 
 @media screen and (max-width: 550px) {
-    body {
-        width: 100%;
-        padding: 0;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: wrap column;
-    }
+   
 
     #top-images img {
         width: 150%;
@@ -651,7 +646,6 @@ form p {
     }
 
     footer {
-        width: 100%;
         margin: 0 auto;
         display: flex;
         flex-flow: wrap column;
@@ -691,4 +685,15 @@ form p {
         text-align: justify;
     }
 
+}
+
+@media screen and (max-width: 550px) {
+    #logo {
+        font-size: 200%;
+        height: 70%;
+    }
+
+    .nav {
+        font-size: 100%;
+    }
 }
