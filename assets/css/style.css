@@ -35,7 +35,7 @@ header {
 }
 
 section {
-  scroll-margin-top: 4rem;
+    scroll-margin-top: 4rem;
 }
 
 
@@ -114,7 +114,7 @@ div {
 /* main image at the top on all pages */
 
 #top-images {
-    
+
     margin-top: 10px;
     margin: auto;
 }
@@ -145,7 +145,7 @@ div {
     text-align: center;
     width: 70%;
     font-family: Roboto, Helvetica, sans-serif;
-   
+
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -180,7 +180,7 @@ hr {
 
 .container {
     width: auto;
-    
+
     padding-top: 0;
     padding-bottom: 0px;
     margin-top: 10px;
@@ -193,7 +193,7 @@ hr {
 
 .info {
     font-family: Roboto, Helvetica, sans-serif;
-    
+
     width: 900px;
     padding-bottom: 20px;
     display: flex;
@@ -305,7 +305,7 @@ img {
 #fun {
     height: 700px;
     font-family: Roboto, Helvetica, sans-serif;
-   
+
     width: 900px;
     display: flex;
     align-items: center;
@@ -605,9 +605,9 @@ form p {
 }
 
 @media screen and (max-width: 750px) {
-   section {
-       width: 90%;
-   }
+    section {
+        width: 90%;
+    }
 
     #top-images>img {
         width: 300px;
@@ -638,7 +638,7 @@ form p {
 }
 
 @media screen and (max-width: 550px) {
-   
+
 
     #top-images img {
         width: 150%;
@@ -695,5 +695,9 @@ form p {
 
     .nav {
         font-size: 100%;
+    }
+
+    hr {
+        padding: 10px;
     }
 }

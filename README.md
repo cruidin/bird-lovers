@@ -19,26 +19,26 @@ The ideal user of this website is:
 
 User Stories
 
-Art lovers:
-1. As an art lover, I want to get to see the art work in this website.
-2. As an art lover, I want to get to see more of Patricia’s work.
-3. As an art lover, I want to follow Patricia on social media to stay up to date with her art.
-4. As an art lover, I want to stay in touch with Patricia and try one of her drawing sessions.
+As an art lover:
+1. I want to get to see the art work in this website.
+2. I want to get to see more of Patricia’s work.
+3. I want to follow Patricia on social media to stay up to date with her art.
+4. I want to stay in touch with Patricia and try one of her drawing sessions.
 
-Bird lovers:
-1. As a bird lover, I want to see bird related art.
-2. As a bird lover, I want to know about Patricia’s experiences with birds.
-3. As a bird lover, I want to stay in touch with Patricia and exchange experiences.
-4. As a bird lover, I want to try one of Patricia’s monthly get togethers.
+As a birder:
+1. I want to see bird related art.
+2. I want to know about Patricia’s experiences with birds.
+3. I want to stay in touch with Patricia and exchange ideas and experiences.
+4. I want to try one of Patricia’s monthly get togethers.
 
-Curators and people who work in the art field:
-1. As a curator or person who works in the art field, I want to get to know Patricia’s work.
+As a curators or person who work in the art field:
+1. I want to get to know Patricia’s work.
 
-Family and friends:
-1. As Patricia’s family or friend, I want to see what she’s up to.
+As Patricia's family, friend or acquaintance:
+1. I want to see what she’s up to.
 
 Development Planes
-This was tricky. Even though I knew from the beginning that I wanted to make a website about birds, I still spent over two weeks trying to come up with a plan. Originally I intended to make this more informative but given that there are tons of comprehensive resources out there my project naturally evolved into an art piece. 
+This was tricky. Even though I knew from the beginning that I wanted to make a website about birds, I still spent over two weeks trying to come up with a plan - and not really knowing how to stick with the plan so I kept changing it. Originally I intended to make this more informative but given that there are tons of comprehensive resources out there my project naturally evolved into an art piece, focusing more on the drawings and stories about birds.
 
 Strategy
 
@@ -46,7 +46,7 @@ Audiences:
 * Art lovers
 * Bird lovers
 * Curators and people who work in the art field
-* Family and friends
+* Family, friends and acquaintances.
 
 
 The website needs to enable the user to:
@@ -140,8 +140,12 @@ Back to top ⇧
 
 Trouble
 
-I ran into a lot of trouble during this project. Troubles of all sorts. After I had chosen my subject I spent too much time trying to figure out how to plan. Realising that I was taking a bit too long to finalise my plan I had to start coding even without a clear plan. Because of that, my code was messy and all over the place. I also realised that there was a lot of things that I still didn’t understand how they worked.
+I ran into a lot of trouble during this project. Troubles of all sorts. After I had chosen my subject I spent too much time trying to figure out how to plan. Realising that I was taking a bit too long to finalise my plan I had to start coding even without a clear plan. Because of that, my code was messy and all over the place. So it took me a long time to make sense of it and tidy it up/ I also realised that there was a lot of things that I still didn’t understand how they worked.
 Eventually, things did settle a bit and I was able to focus on what was essential. 
+Things I found particularly difficult:
+- Media queries - I just couldn't get the hang of it but with the help of my mentor, Seun, I was able to really get it eventually.
+- Aligning divs, content etc - I took a long time to learn how to align things properly but with the help of a game to learn how to use flexbox I was able to understand it well. http://flexboxfroggy.com/ 
+- Form - I tried to do this from scratch but styling it the way I wanted proved to be very challenging. I ended up using a combination of two different sources
  
 
 Languages Used
@@ -149,9 +153,11 @@ Languages Used
 * CSS3
 
 
+
 Acknowledgements
 I would like to thank:
 * My mentor, Seun, for her help 
 * My fellow classmates who kept me amused when things got desperate
 * My family for giving me the space and support that I needed during this project
-* 
+
+
