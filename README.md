@@ -33,7 +33,7 @@ The Bird Lovers Club is a personal art project in the format of a website. It is
 
 I take a very simple and laid back approach to birding and this is reflected in the design style I created for this project. Since it is not only just a coding project but also an artistic one, the aim is to showcase my drawings and stories to an audience of primarily art and bird lovers.
 
-This project was conceived as a response to our first Milestone Project at The Code Institute for their Full Stack Web Development Program. It comprises of a responsive and static website with 4 pages using HTML5 and CSS.
+This project was conceived as a response to our first Milestone Project at The Code Institute for their Full Stack Web Development Program. It comprises of a responsive and static front-end website with 4 pages using HTML5 and CSS.
 
 [Back to the top](#the-bird-lovers-club)
 
