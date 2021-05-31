@@ -5,26 +5,26 @@
 
 ## Table of contents
 
-1. Introduction
-1. UX
-    * Demographics
-    * User Stories
-    * Development Planes
-    * Design
-1. Features
-    * Design Features
-    * Additional Comments
-    * Future Features
-1. Troubles
-1. Technical Information
-    * Languages Used
-1. Credits
-    * Art work
-    * Texts
-    * Websites Consulted
-    * Additional Resources
-1. Acknowledgements
-1. About
+1. [Introduction](#introduction)
+1. [UX](#ux)
+    * [Demographics](#demographics)
+    * [User Stories](#user-stories)
+    * [Development Planes](#development-planes)
+    * [Design](#design)
+1. [Features](#features)
+    * [Design Features](#design-features)
+    * [Additional Comments](#additional-comments)
+    * [Future Features](#future-features)
+1. [Troubles](#troubles)
+1. [Technical Information](#technical-information)
+    * [Languages Used](#languages-used)
+1. [Credits](#credits)
+    * [Art work](#art-work)
+    * [Texts](#texts)
+    * [Websites Consulted](#websites-consulted)
+    * [Additional Resources](#additional-resources)
+1. [Acknowledgements](#acknowledgements)
+1. [About](#about)
 
 
 ## Introduction </a>
@@ -190,7 +190,7 @@ Contact page contains:
  
 * The footer contains the links to all birds in birds.html page. They land in their specific location in birds.html.
 
-### Features to be implemented in future - possibly:
+### Future Features:
 * Tips page - with added stories and suggestions on how to attract birds to garden, where to go birdwatching, what to feed as well as links to other resources.
 * Shop - a page featuring bird related art prints for sale.
 	
