@@ -72,7 +72,9 @@ This project was conceived as a response to our first Milestone Project at The C
 1. I want to see what she’s up to.
 
 ### Development Planes
-This was tricky. Even though I knew from the beginning that I wanted to make a website about birds, I still spent over two weeks trying to come up with a plan - and not really knowing how to stick with the plan so I kept changing it. Originally I intended to make this more informative but given that there are tons of comprehensive resources out there my project naturally evolved into an art piece, focusing more on the drawings and stories about birds.
+This was tricky. Even though I knew from the beginning that I wanted to make a website about birds, I still spent over two weeks trying to come up with a plan - and not really knowing how to stick with the plan so I kept changing it. Originally I intended to make this more informative but given that there are tons of comprehensive resources out there my project naturally evolved into an art piece, focusing more on the drawings and stories about birds. 
+
+For an overview of some of the thought process involved in drawing up a plan for the project please consult this [PDF](/assets/notes-and-sketches.pdf).
 
 #### Strategy
 
