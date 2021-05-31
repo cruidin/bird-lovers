@@ -120,7 +120,7 @@ I used good old pencil on paper for the wireframe of the main page first, then I
 
 **iPad drawing**
 
-![main image](/assets/images/home.jpg){:height="10px" align="left"}
+![main image](/assets/images/home.jpg)
 
 #### Design
 
@@ -176,7 +176,7 @@ Contact page contains:
 
 * We have a simple logo with just the name of the website at the top and the navigation menu just below it. When the mouse hovers on the links the background and font color change. The header is consistent throught the website
 
-* Just below the header I opted for an image in a div as opposed to a hero image. After some research and consideration I decided this approach was more in tune with what I wanted to achieve. The image is consistent throughout the website. This article was particularly helpful: https://www.laralee.design/hero-image-alternatives/
+* Just below the header I opted for an image in a div as opposed to a hero image. After some research and consideration I decided this approach was more in tune with what I wanted to achieve. The image is consistent throughout the website. This [article](https://www.laralee.design/hero-image-alternatives/) was particularly helpful
 
 * To facilitate the navigation within the main page I added a secondary navigation menu for this purpose 
 
@@ -196,8 +196,9 @@ I ran into a lot of trouble during this project. Troubles of all sorts. After I 
 Eventually, things did settle a bit and I was able to focus on what was essential. 
 Things I found particularly difficult:
 * Media queries - I just couldn't get the hang of it but with the help of my mentor, Seun, I was able to really get it eventually.
-* Aligning divs, content etc - I took a long time to learn how to align things properly but with the help of a game to learn how to use flexbox I was able to understand it well. http://flexboxfroggy.com/ 
+* Aligning divs, content etc - I took a long time to learn how to align things properly but with the help of a [game](https://www.laralee.design/hero-image-alternatives/) to learn how to use flexbox I was able to understand it well. X
 * Form - I tried to do this from scratch but styling it the way I wanted proved to be very challenging. I ended up using a combination of two different sources
+* Fixed header - I intended to have the header fixed and although I did manage to do it I kept running into the problem of the main content going over the header. As I ran out of time, I couldn't solve this.
 
 [Back to the top](#the-bird-lovers-club)
 
@@ -221,11 +222,33 @@ All texts were written by me, Patricia Melo (developer and artist)
 
 ### Websites Consulted
 
-* Stack Overflow
-* W3Schools
-* http://flexboxfroggy.com/ 
+* [Font Awesome](https://fontawesome.com/icons/instagram-square?style=brands)
+* [W3Schools](https://www.w3schools.com/)
+* [Flexbox Froggy](http://flexboxfroggy.com)
+* [Tutorial.md](https://agea.github.io/tutorial.md/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [CSS Tricks](https://css-tricks.com/)
+* [HTML Tutorial](https://html5-tutorial.net/forms/checkboxes/)
+* [How to Build a Responsive Form with Flexbox](https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767)
+* [Validator](https://validator.w3.org/)
+* [Color Conversion](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
+* [Resize images proportionally](https://www.geeksforgeeks.org/resize-image-proportionally-with-css/)
+* [How To change a git commit message](https://linuxize.com/post/change-git-commit-message/#:~:text=To%20change%20the%20most%20recent%20commit%20message%2C%20use%20the%20git,of%20problems%20to%20your%20colleagues)
+* [How to align things in CSS](https://www.smashingmagazine.com/2019/03/css-alignment/)
+* [W3Schools - CSS Responsive Form](https://www.w3schools.com/howto/howto_css_responsive_form.asp)
+* [Responsive Media Design](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/)
+* [Responsive Web Design](https://www.hobo-web.co.uk/best-screen-size/)
+* [Responsive Web Design Basics](https://web.dev/responsive-web-design-basics/)
+* [Hero Image Alternatives](https://www.laralee.design/hero-image-alternatives/)
+* [Absolute and Fixed Positioning](https://webplatform.github.io/docs/tutorials/absolute_and_fixed_positioning/)
+* [Bird Watch Ireland](https://birdwatchireland.ie/)
+* [Rebecca Tracey’s KryanLive README](https://github.com/rebeccatraceyt/KryanLive#kryan-live)
+
+*Note:* Even though the best efforts have been made to ackowledge all the websites, articles and codes used for this project, it is possible that some of them haven't been listed here. If that is the case, I sicerely appologise. 
 
 ### Additional Resources
+
+
 
 [Back to the top](#the-bird-lovers-club)
 
@@ -240,10 +263,10 @@ I would like to thank:
 
 ## About
 
-My name is Patricia Melo. I am an artist and I am a Diploma in Software Development (E-commerce Applications) student at the Code Institute. You can contact me by [email](mailto:contact@patriciamelo.ie).
+My name is Patricia Melo. I am an artist and I am a Software Development student at the Code Institute. You can contact me by [email](mailto:contact@patriciamelo.ie).
 
 *******
 
-*I would like to dedicate this project in the memory of my beloved mother who tragically died in 2020. I rest assured that she is now free of all suffering and is having a lot of fun flying in other dimensions.*
+*I would like to dedicate this project to the memory of my beloved mother who tragically died in 2020. I rest assured that she is now free of all suffering and is having a lot of fun flying like a bird in other dimensions.*
 
 [Back to the top](#the-bird-lovers-club)
