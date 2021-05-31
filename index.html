@@ -13,19 +13,21 @@
 
 <body>
 
-    <!-- We have a simple logo with just the name of the website at the top and the navigation menu just below it. When the mouse hovers on the links the background and font color change. The header is consistent throught the website -->
+    <!-- HEADER -->
 
     <header>
+
+        <!-- Header logo -->
 
         <a href="index.html">
             <h1 id="logo">The Bird Lovers Club</h1>
         </a>
 
+        <!-- Navigation bar -->
 
         <ul class="nav" id="menu">
             <li><a href="index.html" class="active">Home</a>
             <li><a href="birds.html">Birds</a>
-
             <li><a href="activities.html">Activities</a>
             <li><a href="contact.html">Contact</a>
         </ul>
@@ -34,7 +36,7 @@
     </header>
 
 
-    <!-- Just below the header I opted for an image in a div as opposed to a hero image. After some research and consideration I decided this approach was more in tune with what I wanted to achieve. The image is consistent throughout the website. This article was particularly helpful: https://www.laralee.design/hero-image-alternatives/ -->
+    <!-- Main image -->
 
     <div id="top-images"><img src="/assets/images/hero-image3.jpg"
             alt="illustration of a group of 4 birds sitting at a table in a cafe"></div>
@@ -42,9 +44,11 @@
 
     <hr>
 
-    <!-- To facilitate the navigation within the main page I added a secondary navigation menu for this purpose -->
+    <!-- Main section -->
 
     <section>
+
+        <!-- Secondary navigation bar for content within the active page -->
 
         <ul class="nav">
             <li><a href="#what">What are Birds?</a></li>
@@ -56,9 +60,11 @@
 
     <hr>
 
-    <!-- This is the basic structure of the website and is used in all pages (except contact.html): two divs, the left for the illustration and the right for text -->
-    <section>
+    <!-- Texts and images -->
 
+    <!-- Information about the club + illustration + link to activities.html -->
+
+    <section>
         <div class="info container">
             <div class="bird-info-left">
                 <img src="/assets/images/logo-pink.jpg" alt="bird lovers club logo">
@@ -84,6 +90,9 @@
         </div>
     </section>
     <hr>
+
+    <!-- Introduction about birds + illustration + link to birds.html -->
+
     <section>
 
         <div class="info container">
@@ -107,11 +116,13 @@
                     their free nature. But that’s just speculation. <a href="birds.html">more</a></p>
                 <br>
             </div>
-
         </div>
     </section>
     <hr>
     <br>
+
+    <!-- Reasons to look at birds + illustration -->
+
     <section>
         <div class="info container">
             <div class="bird-info-left">
@@ -146,12 +157,13 @@
                 </p>
                 <br>
             </div>
-
         </div>
     </section>
     <hr>
     <br>
     <section>
+
+        <!-- Intro to bird related activities + illustration + link to activities.html -->
 
         <div class="info container">
             <div class="bird-info-left">
@@ -173,6 +185,8 @@
     <br>
     <section>
 
+        <!-- Information about the artist and developer + illustration + link to contact.html -->
+
         <div class="info container">
             <div class="bird-info-left">
                 <img src="/assets/images/portrait2.jpg" alt="simple portrait of a bird" class="birds">
@@ -191,7 +205,6 @@
                 <a href="contact.html">Now, let's be friends!</a>
                 <br><br>
             </div>
-
         </div>
     </section>
 
@@ -207,9 +220,12 @@
     </section>
     <br>
 
-    <!-- The footer contains the links to all birds in birds.html page. They land in their specific location in birds.html.  -->
+    <!-- FOOTER -->
 
     <footer>
+
+        <!-- Links to all birds listed on birds.html -->
+
         <ul id="bird-links-footer">
             <li><a href="birds.html#blackbird">Blackbird</a></li>
             <li><a href="birds.html#blackcap">Blackcap</a></li>

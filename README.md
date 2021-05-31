@@ -146,7 +146,17 @@ Things I found particularly difficult:
 - Media queries - I just couldn't get the hang of it but with the help of my mentor, Seun, I was able to really get it eventually.
 - Aligning divs, content etc - I took a long time to learn how to align things properly but with the help of a game to learn how to use flexbox I was able to understand it well. http://flexboxfroggy.com/ 
 - Form - I tried to do this from scratch but styling it the way I wanted proved to be very challenging. I ended up using a combination of two different sources
+
+Some Comments
+We have a simple logo with just the name of the website at the top and the navigation menu just below it. When the mouse hovers on the links the background and font color change. The header is consistent throught the website
+
+Just below the header I opted for an image in a div as opposed to a hero image. After some research and consideration I decided this approach was more in tune with what I wanted to achieve. The image is consistent throughout the website. This article was particularly helpful: https://www.laralee.design/hero-image-alternatives/
+
+To facilitate the navigation within the main page I added a secondary navigation menu for this purpose 
+
+There is a basic structure and it is used in all pages (except contact.html): two divs, the left for the illustration and the right for text
  
+The footer contains the links to all birds in birds.html page. They land in their specific location in birds.html.
 
 Languages Used
 * HTML5
