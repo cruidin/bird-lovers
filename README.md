@@ -15,6 +15,11 @@
     * [Design Features](#design-features)
     * [Additional Comments](#additional-comments)
     * [Future Features](#future-features)
+1. [Final Product](#final-product)
+    * [Desktops](#desktops)
+    * [Laptops](#laptops)
+    * [Tablets](#tablets)
+    * [Mobiles](#mobiles)
 1. [Troubles](#troubles)
 1. [Technical Information](#technical-information)
     * [Languages Used](#languages-used)
@@ -22,7 +27,6 @@
     * [Art work](#art-work)
     * [Texts](#texts)
     * [Websites Consulted](#websites-consulted)
-    * [Additional Resources](#additional-resources)
 1. [Acknowledgements](#acknowledgements)
 1. [About](#about)
 
@@ -70,7 +74,7 @@ This project was conceived as a response to our first Milestone Project at The C
 ### Development Planes
 This was tricky. Even though I knew from the beginning that I wanted to make a website about birds, I still spent over two weeks trying to come up with a plan - and not really knowing how to stick with the plan so I kept changing it. Originally I intended to make this more informative but given that there are tons of comprehensive resources out there my project naturally evolved into an art piece, focusing more on the drawings and stories about birds. 
 
-For an overview of some of the thought process involved in drawing up a plan for the project please consult this [PDF](/assets/notes-and-sketches.pdf).
+For an overview of some of the thought process involved in drawing up a plan for the project please consult this [PDF](/assets/README-docs/notes-and-sketches.pdf).
 
 #### Strategy
 
@@ -192,30 +196,30 @@ Contact page contains:
 
 ## Final Product
 
-Desktops
+### Desktops
 
-![main image](/assets/README-docs/desktop-index.jpg)
-![main image](/assets/README-docs/desktop-contact.jpg)
-![main image](/assets/README-docs/desktop-birds.jpg)
+![index](/assets/README-docs/desktop-index.jpg)
+![contact](/assets/README-docs/desktop-contact.jpg)
+![birds](/assets/README-docs/desktop-birds.jpg)
 
 
-Laptops
+### Laptops
 
-![main image](/assets/README-docs/laptop-activities.jpg)
-![main image](/assets/README-docs/laptop-contact.jpg)
-![main image](/assets/README-docs/laptop-footer.jpg)
+![activities](/assets/README-docs/laptop-activities.png)
+![contact](/assets/README-docs/laptop-contact.png)
+![footer](/assets/README-docs/laptop-footer.png)
 
-Tablets
+### Tablets
 
-![main image](/assets/README-docs/tablet-birds.jpg)
-![main image](/assets/README-docs/tablet-footer.jpg)
-![main image](/assets/images/README-docs/tablet-index.jpg)
+![birds](/assets/README-docs/tablet-birds.jpg)
+![footer](/assets/README-docs/tablet-footer.jpg)
+![contact](/assets/README-docs/tablet-contact.jpg)
 
-Mobiles
+### Mobiles
 
-![main image](/assets/README-docs/mobile-index.jpg)
-![main image](/assets/README-docs/mobile-activities.jpg)
-![main image](/assets/README-docs/mobile-contact.jpg)
+![index](/assets/README-docs/mobile-index.jpg)
+![activities](/assets/README-docs/mobile-activities.jpg)
+![contact](/assets/README-docs/mobile-contact.png)
 
 [Back to the top](#the-bird-lovers-club)
 
@@ -276,18 +280,14 @@ All texts were written by me, Patricia Melo (developer and artist)
 
 *Note:* Even though the best efforts have been made to ackowledge all the websites, articles and codes used for this project, it is possible that some of them haven't been listed here. If that is the case, I sicerely appologise. 
 
-### Additional Resources
-
-
-
 [Back to the top](#the-bird-lovers-club)
 
 ## Acknowledgements
 
 I would like to thank:
-* My mentor, Seun, for her help 
+* My mentor, Seun, for her help and patience
 * My fellow classmates who kept me amused when things got desperate
-* My family for giving me the space and support that I needed during this project
+* My husband for giving me the space and support that I needed during this project
 
 [Back to the top](#the-bird-lovers-club)
 
@@ -298,5 +298,7 @@ My name is Patricia Melo. I am an artist and I am a Software Development student
 *******
 
 *I would like to dedicate this project to the memory of my beloved mother who tragically died in 2020. I rest assured that she is now free of all suffering and is having a lot of fun flying like a bird in other dimensions.*
+
+![love](/assets/README-docs/three-birds-inverted.jpg)
 
 [Back to the top](#the-bird-lovers-club)
