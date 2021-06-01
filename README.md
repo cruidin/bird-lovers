@@ -190,6 +190,12 @@ Contact page contains:
 	
 [Back to the top](#the-bird-lovers-club)
 
+## Final Product
+
+
+
+[Back to the top](#the-bird-lovers-club)
+
 ## Troubles
 
 I ran into a lot of trouble during this project. Troubles of all sorts. After I had chosen my subject I spent too much time trying to figure out how to plan. Realising that I was taking a bit too long to finalise my plan I had to start coding even without a clear plan. Because of that, my code was messy and all over the place. So it took me a long time to make sense of it and tidy it up/ I also realised that there was a lot of things that I still didn’t understand how they worked.
