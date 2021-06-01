@@ -192,9 +192,33 @@ Contact page contains:
 
 ## Final Product
 
+Desktops
 
+![main image](/assets/README-docs/desktop-index.jpg)
+![main image](/assets/README-docs/desktop-contact.jpg)
+![main image](/assets/README-docs/desktop-birds.jpg)
+
+
+Laptops
+
+![main image](/assets/README-docs/laptop-activities.jpg)
+![main image](/assets/README-docs/laptop-contact.jpg)
+![main image](/assets/README-docs/laptop-footer.jpg)
+
+Tablets
+
+![main image](/assets/README-docs/tablet-birds.jpg)
+![main image](/assets/README-docs/tablet-footer.jpg)
+![main image](/assets/images/README-docs/tablet-index.jpg)
+
+Mobiles
+
+![main image](/assets/README-docs/mobile-index.jpg)
+![main image](/assets/README-docs/mobile-activities.jpg)
+![main image](/assets/README-docs/mobile-contact.jpg)
 
 [Back to the top](#the-bird-lovers-club)
+
 
 ## Troubles
 
