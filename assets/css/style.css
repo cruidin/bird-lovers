@@ -6,6 +6,8 @@
     border: none;
 }
 
+/* basic font styles - font-family, colour, background colour, font-weight, line-height, letter spacing */
+
 body {
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: 300;
@@ -26,18 +28,6 @@ a {
     color: #67a35f;
 }
 
-
-header {
-    margin: 0px;
-    padding: 0px;
-    border: none;
-}
-
-section {
-    scroll-margin-top: 4rem;
-}
-
-
 h1,
 h2 {
     font-family: Girassol, helvetica, sans-serif;
@@ -46,6 +36,14 @@ h2 {
 h4 {
     color: #c78f89;
     font-weight: bold;
+}
+
+/* header */
+
+header {
+    margin: 0px;
+    padding: 0px;
+    border: none;
 }
 
 #logo {
@@ -61,6 +59,8 @@ h4 {
     height: 70px;
     position: relative;
 }
+
+/* active pages have a different background colour */
 
 .active {
     background-color: #c5dac9;
@@ -99,12 +99,7 @@ h4 {
     background-color: #e4b9b4;
 }
 
-section {
-    font-family: Roboto, Helvetic, sans-serif;
-    font-weight: 300;
-    color: #55504b;
-    margin: auto;
-}
+/* div margin */
 
 div {
     margin: auto;
@@ -113,7 +108,6 @@ div {
 /* main image at the top on all pages */
 
 #top-images {
-
     margin-top: 10px;
     margin: auto;
 }
@@ -125,7 +119,17 @@ div {
     width: 60%;
 }
 
-/* initial blurb on pages birds.html activities.html and contact.html */
+/* section */
+
+section {
+    font-family: Roboto, Helvetic, sans-serif;
+    font-weight: 300;
+    color: #55504b;
+    margin: auto;
+    scroll-margin-top: 4rem;
+}
+
+/* introduction on pages birds.html activities.html and contact.html */
 
 .content {
     padding: 10px 50px;
@@ -144,7 +148,6 @@ div {
     text-align: center;
     width: 70%;
     font-family: Roboto, Helvetica, sans-serif;
-
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -166,7 +169,7 @@ div.pre-wrap {
     white-space: pre-wrap;
 }
 
-/* same style on all pages */
+/* horizontal lines - same style on all pages */
 
 hr {
     border-top: 1px solid #c78f89;
@@ -179,7 +182,6 @@ hr {
 
 .container {
     width: auto;
-
     padding-top: 0;
     padding-bottom: 0px;
     margin-top: 10px;
@@ -192,7 +194,6 @@ hr {
 
 .info {
     font-family: Roboto, Helvetica, sans-serif;
-
     width: 900px;
     padding-bottom: 20px;
     display: flex;
@@ -251,7 +252,6 @@ img {
     height: 200px;
 }
 
-
 /* link to return to the top of the page, lands on header */
 
 #back-top {
@@ -299,25 +299,6 @@ img {
     background-color: #e4b9b4;
 }
 
-/* activities.html */
-
-#fun {
-    height: 700px;
-    font-family: Roboto, Helvetica, sans-serif;
-
-    width: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 0;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 0px;
-    margin-top: 10px;
-    position: relative;
-    margin: auto;
-}
-
 /* footer */
 
 footer {
@@ -332,6 +313,8 @@ footer {
     line-height: 1.6;
     position: relative;
 }
+
+/* birds links on footer */
 
 #bird-links-footer {
     border-width: 1px 0;
@@ -367,6 +350,8 @@ footer a {
 
 /* contact.html */
 
+/* social links */
+
 ul.social-links {
     text-align: center;
 }
@@ -384,7 +369,9 @@ ul.social-links {
     color: #67a35f;
 }
 
-/* form */
+/* form - the styles were taken from two sources and the styles were changed to match with the design of the website - 'W3Schools - CSS Responsive Form' and 'How to Build a Responsive Form with Flexbox' */
+
+/* code from https://www.w3schools.com/howto/howto_css_responsive_form.asp */
 
 .container form {
     height: 400px;
@@ -462,7 +449,7 @@ input[type=submit]:hover {
     background-color: #67a35f;
 }
 
-/* form from https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 */
+/* code from https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 */
 
 body form {
     padding: 50px 0;
@@ -555,6 +542,8 @@ form p {
 
 /* media queries */
 
+/* max-width of 1000px */
+
 @media screen and (max-width: 1000px) {
     .container {
         width: 65%;
@@ -602,6 +591,17 @@ form p {
     }
 }
 
+/* max-width of 900px */
+
+@media screen and (max-width: 900px) {
+    #top-images img {
+        width: 900px;
+        border-radius: 0;
+    }
+}
+
+/* max-width of 750px */
+
 @media screen and (max-width: 750px) {
     section {
         width: 90%;
@@ -628,16 +628,9 @@ form p {
     }
 }
 
-@media screen and (max-width: 900px) {
-    #top-images img {
-        width: 900px;
-        border-radius: 0;
-    }
-}
+/* max width of 550px */
 
 @media screen and (max-width: 550px) {
-
-
     #top-images img {
         width: 150%;
         border-radius: 0;
@@ -666,7 +659,6 @@ form p {
         display: flex;
         flex-flow: wrap column;
         align-items: center;
-
     }
 
     .bird-info-left {
@@ -683,9 +675,8 @@ form p {
         text-align: justify;
     }
 
-}
+    /* header */
 
-@media screen and (max-width: 550px) {
     #logo {
         font-size: 200%;
         height: 70%;
@@ -694,6 +685,8 @@ form p {
     .nav {
         font-size: 100%;
     }
+
+    /* horizontal line */
 
     hr {
         padding: 10px;
